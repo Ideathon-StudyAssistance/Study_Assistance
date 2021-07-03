@@ -1,0 +1,374 @@
+/* 폰트 불러오기 */
+/* 경기천년바탕 */
+@font-face {
+    font-family: 'GyeonggiBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* 나눔바른고딕 */
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 400;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+   }
+   
+   @font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 700;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.ttf') format('truetype')
+   }
+   
+   @font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 300;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.ttf') format('truetype');
+   }
+   
+   .nanumbarungothic * {
+    font-family: 'NanumBarunGothic', sans-serif;
+   }
+   html {
+    width: 100%;
+    height: 100%;
+}
+
+#containerSpace {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.leftSpace {
+    width: 25%;
+    height: 100%;
+}
+
+.mainLogo {
+    width: 40%;  
+    margin: 20px;
+}
+
+.centerSpace {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mainBox {
+    background:#e9f9f9;
+    width: 100%;
+    height: 93%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.ddayBox {
+    height: 280px;
+    width: 320px;
+    background-color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.todoBox {
+    height: 280px;
+    width: 320px;
+    background-color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* margin-right: 20px; */
+}
+.scheduleC {
+    height: 280px;
+    width: 320px;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.todoC {
+    height: 280px;
+    width: 320px;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.boxTop {
+    background-color: #FFFFFF;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #7FD9DA;
+    text-align: center;
+    line-height: 10px;
+    font-family: 'GyeonggiBatang';
+    font-size: 28px;
+    font-style: normal;
+    color: #0D1117;
+}
+
+.boxBottom {
+    background-color: #FFFFFF;
+    text-align:left;
+    line-height: 20px;
+    font-family: 'GyeonggiBatang';
+    font-size: 13px;
+    font-style: normal;
+    color: #0D1117;
+
+}
+
+.footer {
+    width: 100%;
+    height: 7%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.footerLogo {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.footerSpan {
+    font-family: 'GyeonggiBatang';
+    font-size: 12px;
+ }
+
+.rightSpace {
+    width: 25%;
+    height: 100%;
+    display: flex;
+}
+
+.menu {
+    margin: 50px 0px 10px 10px;
+    width: 200px;
+    height: 50px;
+}
+
+.logout {
+    float: right;
+    margin: 0px;
+    width: 130px;
+    height: 50px;
+}
+
+.bodyChar1 {
+    margin-top: 300px;
+    margin-left: 20px;
+    margin-right: 230px;
+    width: 120px;
+    height: 200px;
+}
+
+.sidebar{
+    position: fixed;
+    right: -250px;
+    width: 250px;
+    height: 70vh;
+    background: #FFFFFF;
+    transition: all .5s ease;
+    display: flex;
+    flex-direction: column;
+    z-index: 5;
+
+
+}
+
+.sidebarheader{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    padding: 10px;
+    user-select: none;
+}
+
+.sidebarheader img{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    padding: 10px;
+    user-select: none;
+}
+
+
+.sidebar_content ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: #0D1117;
+    padding-right: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255,255,255,.1);
+    border-bottom: 1px solid #0D1117;
+    transition: .4s;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'GyeonggiBatang';
+    font-size: 25px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+
+
+
+.sidebar_content ul li:hover a{
+ padding-left: 17px;
+ color:#7FD8DA;
+}
+
+#check {
+    display: none;
+    /* display: flex;
+    justify-content: flex-end;
+    flex-direction: column; */
+}
+
+.barlogo {
+ /* display: none; */
+ display: flex;
+ justify-content: flex-end;
+ flex-direction: column;
+}
+
+
+check #menu, label #cancel{
+    position: absolute;
+    right: 0;
+    width: 200px;
+    height: 50px;
+}
+
+label #menu {
+    float: right;
+    right: 40px;
+    top: 25px;
+    font-size: 35px;
+    transition: all .5s;
+    margin: 50px 0px 10px 10px;
+}
+
+label #cancel{
+    float: right;
+    right: -150px;
+    top: 17px;
+    font-size: 30px;
+    transition: all .5s ease;
+}
+
+#check:checked ~ .sidebar{
+    right: 0;
+}
+
+#check:checked ~ label #menu #cancel{
+ right: 250px;
+ opacity: 0;
+ pointer-events: none;
+}
+
+#check:checked ~ label #cancel{
+ right: 195px;  
+}
+
+/* #check:checked ~ section{
+ margin-right: 250px;  
+} */
+
+#check:checked ~ body{
+    margin-right: 1000px;
+    opacity: 0.4;  
+   }
+
+/* section {
+    background: rgba(255,255,255,.1);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    transition: all .5s;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition:all .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1; 
+}  */
+
+.background {
+    position: fixed;
+    background: rgba(255,255,255,.6);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition:all .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;   
+}
+
+.sidebarheader a {
+    text-decoration: none;
+}
+
+.boxBottom_sch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainp_calender {
+    width: 300px;
+    height: 190px;
+    margin-top: 10px;
+}
+
+.accounticon .menusettingicon {
+    width: 30px;
+    height: 30px;
+}
+
+/* section {
+    background: url(icon/bg_test.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    transition: all .5s;
+} */
+
+#school, #shortcut {
+    border: outset 2px #5e7e9b;
+    text-decoration: none;
+    color: #5e7e9b;
+    padding: 2px;
+    font-size: 8px;
+    font-family: 'NanumBarunGothic';
+}

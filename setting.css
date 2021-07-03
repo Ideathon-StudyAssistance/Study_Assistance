@@ -1,0 +1,280 @@
+/* 폰트 불러오기 */
+/* 경기천년바탕 */
+@font-face {
+    font-family: 'GyeonggiBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* 나눔바른고딕 */
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 400;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+   }
+   
+ @font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 700;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.ttf') format('truetype')
+   }
+   
+   @font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 300;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.ttf') format('truetype');
+   }
+   
+   .nanumbarungothic * {
+    font-family: 'NanumBarunGothic', sans-serif;
+   }
+
+/* 메인페이지 큰 틀 */
+#containerSpace {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.leftSpace {
+    background:#FFFFFF;
+    display: flex;
+    width:25%;
+    height: 100%;
+    align-items: flex-start;
+  }
+
+.centerSpace{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainSpace {
+    background: #e9f9f9;
+    height: 93%;
+    width: 100%;
+    display: flex;
+    align-content: center;
+  }
+
+.footer {
+    width: 100%;
+    height: 7%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.rightSpace {
+    background:#FFFFFF;
+    width: 25%;
+    text-align: right;
+}
+
+.sideSpace {
+    display: flex;
+    margin: 0px;
+    align-content: space-around;
+}
+
+
+
+
+
+/* mainspace 박스 */
+.settingheader {
+    height: 7%;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    /* line-height: 10px; */
+    font-family: 'GyeonggiBatang';
+    font-size: 22px;
+    font-style: normal;
+    color: #0D1117;
+}
+
+/* .leftSpace {
+    width: 30%;
+    justify-content: flex-start;
+    margin: 40px;
+    line-height: 10px;
+    font-family: 'GyeonggiBatang';
+    font-size: 40px;
+    font-style: normal;
+    color: #0D1117;
+} */
+
+.leftsetting h2 {
+    list-style: none;
+    line-height: 10px;
+    font-family: 'GyeonggiBatang';
+    font-size: 25px;
+    font-style: normal;
+    color: #0D1117;
+    justify-content: flex-start;
+}
+
+.rightsetting h2 {
+    list-style: none;
+    line-height: 10px;
+    font-family: 'GyeonggiBatang';
+    font-size: 25px;
+    font-style: normal;
+    color: #0D1117;
+    justify-content: flex-start;
+}
+
+.leftsetting p {
+    list-style: none;
+    line-height: 10px;
+    font-family: 'GyeonggiBatang';
+    font-size: 20px;
+    font-style:normal;
+    color: #0D1117;
+    justify-content: flex-start;
+}
+
+.connectmessage {
+    list-style: none;
+    line-height: 10px;
+    font-family: 'NanumBarunGothic';
+    font-size: 15px;
+    font-style:normal;
+    color:#E2E2E2;
+    justify-content: flex-start;
+    opacity: 0.4;
+    margin-right: 20px;
+}
+
+
+.leftsetting {
+    border-style: none solid none none;
+    border-width: 1px;
+    border-color: #A2A2A2;
+    width: 30%;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.rightsetting {
+    width: 70%;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.kakaolink {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.kakaolink p{
+    list-style: none;
+    line-height: 10px;
+    font-family: 'NanumBarunGothic;
+    font-size: 15px;
+    font-style:normal;
+    color: #0D1117;
+    justify-content: flex-start;
+}
+
+
+.kakaoLogo {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.x {
+    width: 18px;
+    height: 19px;
+    margin-right: 10px;
+}
+
+.kakaobutton {
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    font-family: 'NanumBarunGothic';
+
+}
+
+input::placeholder {
+    font-family: 'NanumBarunGothic';
+    font-size: 8px;
+}
+
+
+
+
+
+
+/* 메인 페이지 아이콘 */
+.mainLogo {
+    margin: 10px;
+    width: 160px;
+    height: 120px;
+}
+
+.footerLogo {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.footerSpan {
+    font-family: 'GyeonggiBatang';
+    font-size: 12px;
+ }
+
+.backicon {
+    width: 20px;
+    height: 20px;
+    margin-right: 510px;
+    text-decoration: none;
+    color: black;
+} 
+.settingicon {
+    width: 20px;
+    height: 20px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.settingheader div p{
+    margin-left: 50px;
+}
+
+.settingheader a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
