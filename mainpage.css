@@ -365,10 +365,15 @@ label #cancel{
 } */
 
 #school, #shortcut {
-    border: outset 2px #5e7e9b;
+    margin-left:1%;
+    border: outset 1px #5e7e9b;
     text-decoration: none;
     color: #5e7e9b;
     padding: 2px;
     font-size: 8px;
     font-family: 'NanumBarunGothic';
+}
+#school:hover, #shortcut:hover{
+    background-color:#d7f1f1;
+    box-shadow:0.5px 0.5px #5c5c5c;
 }
