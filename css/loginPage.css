@@ -1,0 +1,112 @@
+.container{
+
+}
+#center{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#login{
+    display:flex;
+    width:70%;height:80%;
+    border:solid 1px #7FD8DA;
+    border-radius:10px;
+    min-width:30%;
+    max-width:100%;
+}
+#welcomeLoginBox{
+    background-color:#7FD8DA;
+    border-radius:10px;
+    width:40%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+#welcomeText{width:70%;}
+#loginBox{
+    display:flex;
+    width:60%;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:flex-start;
+}
+#loginHeader{flex-basis:40%;}
+#loginCenter{
+    flex-basis:30%;
+    width:85%;
+    padding:7%;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    justify-content:space-between;
+}
+#loginFooter{
+    flex-basis:40%;
+    display:flex;
+    flex-direction:row-reverse;
+    align-items:flex-end;
+}
+#loginText{
+    font-weight:bold;
+    margin-bottom:5%;
+}
+#inputBttn{
+    display:flex;
+    flex-direction:row;
+}
+input #idPW{
+    width:90%;
+    font-size:10%;
+}
+.inputIDPW{
+    opacity:0.7;
+    font-size:50%;
+    width:28vh;height:3vh;
+}
+#loginButton{
+    color:black;
+    border:0px;
+    text-decoration:none;
+    cursor:pointer;
+    padding:3px;
+    background-color:#7FD8DA;
+    font-size:50%;
+    display:flex;
+    width:10vh;
+    align-items:center;
+    justify-content:center;
+}
+#loginButton:hover{
+    background-color:#74e5e9;
+}
+input{vertical-align:-3px;}
+#loginInput{
+    display:flex;
+    flex-direction:column;
+}
+#belowLogin{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    width:100%;
+    font-size:1%;
+}
+#keepLogin{margin:4% 0%;}
+#signup_idPW{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    width:100%;
+}
+#signUp{ flex-basis:20%;}
+#findIDPW{flex-basis:50%;}
+.linkStyle{
+    text-decoration:none;
+    color:rgb(192, 191, 191);
+}
+.linkStyle:hover{color:#7FD8DA;}
+#loginChar{
+    width:50%;
+    margin-right:5%;
+}

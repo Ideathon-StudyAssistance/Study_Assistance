@@ -1,0 +1,97 @@
+* {
+    margin:0;
+    font-family:'GyeonggiBatang';
+}
+/* 경기바탕체 */
+@font-face {
+    font-family: 'GyeonggiBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 나눔바른고딕 */
+@font-face {
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+ }
+ 
+ @font-face {
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  font-weight: 700;
+  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot');
+  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.ttf') format('truetype')
+ }
+ 
+ @font-face {
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  font-weight: 300;
+  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot');
+  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.ttf') format('truetype');
+ }
+ 
+ .nanumbarungothic * {
+  font-family: 'NanumBarunGothic', sans-serif;
+ }
+
+
+/* left(25%)-center(50%), footer(height:7%), right(50%) */
+body{
+  display:flex;
+  margin:0;
+}
+.mainLogoImg{
+  width:40%;
+  margin:20px;
+}
+.container{
+  display:flex;
+  flex-basis:50%;
+  flex-direction:column;
+  justify-content:center;
+}
+#left, #right{
+  flex-basis:25%;
+  height:100vh;
+}
+#left{align-items:flex-start;}
+#right{align-items:flex-end;}
+#center{
+  flex-basis:93%;
+  align-content:center;
+  align-items:center;
+  text-align:center;
+}
+#footer{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size:15%;
+  background-color:white;
+  text-align:center;
+  color:black;
+}
+
+/*          scrollbar        */
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px; height:5px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background:#c0c2c2;  border-radius: 10px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #7FD8DA;  border-radius: 10px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #7feef0;  border-radius: 10px;
+}

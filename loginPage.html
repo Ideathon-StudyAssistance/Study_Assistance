@@ -1,0 +1,58 @@
+<!-- 로딩 firstPage에서 바로 연결되는 로그인 페이지 -->
+<!-- [로그인] 버튼 누르면 메인 페이지로 연결 -->
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <title>Login Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/loginPage.css">
+</head>
+<body>
+
+   <div id="left"></div>
+   
+    <div class="container">
+        <div id="center">
+            <div id="login">
+                <div id="welcomeLoginBox">
+                    <img id="welcomeText" src="image/welcomeText.svg">
+                </div>
+                <div id="loginBox">
+                    <div id="loginHeader"></div>
+                    <div id="loginCenter">
+                        <div id="loginText">로그인</div>
+                        <div id="inputBttn">
+                            <div id="loginInput">
+                                <input class="inputIDPW" type="text" name="id" placeholder="아이디를 입력하세요"> 
+                                <input class="inputIDPW" type="password" name="pw" placeholder="비밀번호를 입력하세요">
+                            </div>
+                            <button type="submit" id="loginButton" name="login" onclick="location.href='mainpage.html'"> 로그인</button>
+                        </div>
+                        <div id="belowLogin">
+                            <div id="keepLogin">
+                                <input id="keepCheckbox" type="checkbox" name="keepLogIn"> 로그인상태유지
+                            </div>
+                            <div id="signup_idPW">
+                                <div id="signUp"> <a class="linkStyle" href="#"> 회원가입 </a></div>
+                                <div id="findIDPW"> <a class="linkStyle" href="#"> 아이디/비밀번호 찾기 </a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="loginFooter">
+                        <img id="loginChar" src="image/loginChar.svg" width="40%">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <img src="image/footerLogo.svg">
+            <div id="copyright"> ⓒ 2021. 일개미 All rights reserved.</div>    
+        </div>
+    </div>
+    <div id="right"></div>
+</body>
+</html>

@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    font-family:'GyeonggiBatang';
+}
+@font-face {
+    font-family: 'GyeonggiBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+#header{
+    height:13vh;
+    opacity:0.2;
+}
+.container{
+    display:flex;
+    height:87vh;
+}
+#left, #right{
+    flex-basis:30%;
+    opacity:0.2;
+}
+#center{
+    flex:1;
+    width:40%;
+    border:1px solid #7FD8DA;
+    border-bottom:none;
+    border-radius:10px 10px 0 0;
+    min-width:400px;
+    box-shadow: 0 5px 5px #62898a;
+}
+#contents{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    margin:3%;padding:1%;
+    font-size:80%;
+}
+#top{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.textInput{
+    border:0.1px solid #7FD8DA;
+    border-radius:5px;
+    padding:1%;
+    width:50%;
+}
+#title{font-size:180%;border:none;}
+.icons{width:5%; margin-right:3%;}
+.content{
+    margin-top:7%;
+    margin-left:5%;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    min-width:300px;
+}
+.kakaoContent{
+    margin-top:10%;
+    margin-left:5%;
+    display:flex;
+    flex-direction:column;;
+}
+#date-time {
+    margin-left:3%;
+    border:1px solid #7FD8DA;
+    border-radius:15px;
+    box-shadow:1px 1px 1px #7FD8DA;
+}
+#kakao-notice{
+    margin-left:3%;
+    border-radius:5px;
+    background-color:#ffe812;
+    box-shadow:1px 1px 1px #6e6e6e;
+}
+#calList{
+    margin-left:3%;padding:1%;
+    width:55%;height:15vh;
+    border:1px solid #7FD8DA;
+    border-radius:5px;
+    display:flex;
+    flex-direction:column;
+    overflow-y:scroll;
+}
+.checkTeam{
+    margin:2%;
+    display:flex;
+    justify-content:flex-start;
+    margin-bottom:3%;
+}
+.checkbox{margin:0% 2%;}
+#submitBox{
+    width:93%;
+    display:flex;
+    justify-content:flex-end;
+}
+#submitButton{
+    background-color:#7FD8DA;
+    border:1px solid rgb(177, 177, 177);
+    border-radius:5px;
+    padding:0.5% 2%;
+}
+
+
+/* 추가되는 부분 */
+
