@@ -87,12 +87,9 @@
 .button {
   text-decoration:none;
   cursor: pointer;
-  transition: all 0.2s ease-out;
   display:flex;
   justify-content:center;
-  width:10%;
 }
-
 .overlay {
   position: absolute;
   top: 0;
@@ -173,7 +170,7 @@
   padding:1%;
   width:50%;
 }
-#title{font-size:180%;border:none;}
+#title{font-size:150%;width:180%;border:none;}
 .icons{width:5%; margin-right:3%;}
 .content{
   margin-top:4%;
@@ -240,4 +237,11 @@ textarea{
   border-radius:3px;
   width:15%;
   margin-left:5%;
+}
+
+.button2{
+  text-decoration:none;
+  cursor: pointer;
+  display:flex;
+  justify-content:center;
 }
