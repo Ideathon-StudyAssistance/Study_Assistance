@@ -1,1 +1,193 @@
-공유캘린더목록화면
+<!-- 공유 캘린더 리스트 페이지 -->
+<!-- 팝업 2종류 : 1) [추가] 버튼 / 2) [팀 캘린더] 수정 버튼 -->
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <title>Shared Calendar Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/sharedCalPage.css">
+</head>
+<body>
+   <div id="left"> <img class="mainLogoImg" src="image/mainLogo.svg"></div>
+
+    <div class="container">
+        <div id="center">
+            
+            <div id="calListText"> 공유 캘린더 목록  </div>
+            
+            <div id="addCal">
+                <a class="button" href="#popup2">
+                    <button id="addButton" name="addSharedCal">추가</button>
+                </a>
+            </div>
+
+            <div id="calList">
+
+                <div class="sharedList"> 
+                    <div class="char"><img src="image/calFaceChar.svg" width="50%"></div>
+                    <div class="list">
+                        <div class="teamName">LikeLion 9th at SCH 중앙 아이디어톤 4조</div>
+                        <div class="modify"><img src="image/teamModButton.svg" width="50%"></div>
+                    </div>
+                </div>
+
+                <div class="sharedList"> 
+                    <div class="char"><img src="image/calFaceChar.svg" width="50%"></div>
+                    <div class="list">
+                        <div class="teamName">멋쟁이사자처럼 여름방학 전체 일정</div>
+                        <div class="modify"><img src="image/teamModButton.svg" width="50%"></div>
+                    </div>
+                </div>
+
+                <div class="sharedList"> 
+                    <div class="char"><img src="image/calFaceChar.svg" width="50%"></div>
+                    <div class="list">
+                        <div class="teamName">멋쟁이사자처럼 스터디</div>
+                        <div class="modify"><img src="image/teamModButton.svg" width="50%"></div>
+                    </div>
+                </div>
+
+                <div class="sharedList"> 
+                    <div class="char"><img src="image/calFaceChar.svg" width="50%"></div>
+                    <div class="list">
+                        <div class="teamName">OS Lab 연구실 일정 캘린더</div>
+                        <div class="modify"><img src="image/teamModButton.svg" width="50%"></div>
+                    </div>
+                </div>
+
+                <div class="sharedList"> 
+                    <div class="char"><img src="image/calFaceChar.svg" width="50%"></div>
+                    <div class="list">
+                        <div class="teamName">파이썬 알고리즘 스터디</div>
+                        <div class="modify"><img src="image/teamModButton.svg" width="50%"></div>
+                    </div>
+                </div>
+
+                <div class="sharedList"> 
+                    <div class="char"><img src="image/calFaceChar.svg" width="50%"></div>
+                    <div class="list">
+                        <div class="teamName">자바 스터디 기초</div>
+                        <div class="modify"><img src="image/teamModButton.svg" width="50%"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="footer">
+            <img src="image/footerLogo.svg">
+            <div id="copyright"> ⓒ 2021. 일개미 All rights reserved.</div>    
+        </div> 
+    </div>
+
+    <div id = "right">
+        <div class = "sidespace">
+            <div class ="menuoutspace">
+                <input type="checkbox" id="check">
+                <label for ="check">
+                    <img src="icon/menu.SVG" id="menu"></img>
+                    <img src="image/cancel.SVG" id = "cancel" class="bi bi-x" viewBox="0 0 16 16">          
+                </label>
+                <div class = "sidebar">
+                    <header>
+                        <div class = "sidebarheader">
+                            <a href = "#">
+                                <svg xmlns="http://www.w3.org/2000/svg"  width ="40" height="40"fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                                </svg>
+                            </a>
+                            <a href = "setting.html">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width ="40" height="40" class="bi bi-gear" viewBox="0 0 16 16">
+                                    <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z"/>
+                                    <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z"/>
+                                </svg>
+
+                            </a>
+                        </div>
+                    </header>
+                    <div class = "sidebar_content">
+                        <ul>
+                            <li><a href ='#'>공유캘린더</a></li>
+                            <li><a href ='#'>To-Do 리스트</a></li>
+                        </ul>
+                        <label for = "check"></label>
+                    </div>
+                </div>
+                <label for = "sidebar" class = "background"></label>
+        </div>
+    </div>
+
+
+    <!-- 팝업 부분. 버튼 클릭해야 나타나는 부분 -->
+    <div id="popup2" class="overlay light">
+        <a class="cancel" href="#"></a>
+        <div class="popup">
+                <div id="myCenter">
+                    <div id="contents">
+                        <div id="top">
+                            <input type="text" class="textInput" id="title" placeholder="제목 입력" name="title">
+                            <img id="titleLogo" src="image/popupLogo.svg" width="5%">
+                        </div>
+
+                        <img id="popupLine" src="image/popupLine.svg">
+
+                        <div id="addContents">    
+                            <div class="content">
+                                <img class="icons" src="image/clock.svg">
+                                <label for="date-time">날짜/시간 설정  </label>
+                                <input type="datetime-local" class="textInput" id="date-time"
+                                    name="date-time" value="2021-07-01T13:30"
+                                    min="2021-07-01T00:00" max="2021-07-14T00:00">
+                            </div>
+
+                            <div class="content">
+                                <img class="icons" src="image/link.svg">
+                                <input type="text" class="textInput" placeholder="링크 추가" name="addLink">
+                            </div>
+
+                            <div class="content">
+                                <img class="icons" src="image/note.svg">
+                                <input type="text" class="textInput" placeholder="메모 추가" name="addLink">
+                                <button type="submit" id="findFile" name="findFile">찾아보기</button>
+                            </div>
+
+                            <div class="content">
+                                <img class="icons" src="image/kakaoLogo.svg">
+                                <label for="kakao-notice">카카오톡 알림 설정 </label>
+                                <input type="datetime-local" class="textInput" id="kakao-notice"
+                                    name="kakao-notice" value="2021-07-01T13:30"
+                                    min="2021-07-01T00:00" max="2021-07-14T00:00">
+                            </div>
+
+                            <div class="content">
+                                <img class="icons" src="image/calendar.svg"> 공유할 공유 캘린더 설정
+                                <div id="myCalList">
+                                    <div class="checkTeam"> <input type="checkbox" class="checkbox" name="checked">멋쟁이사자처럼 아이디어톤 4팀 </div>
+                                    <div class="checkTeam"> <input type="checkbox" class="checkbox" name="checked">멋쟁이사자처럼 여름방학 전체 일정 </div>
+                                    <div class="checkTeam"> <input type="checkbox" class="checkbox" name="checked">멋쟁이사자처럼 스터디 </div>
+                                    <div class="checkTeam"> <input type="checkbox" class="checkbox" name="checked">OS Lab 연구실 일정 캘린더</div>
+                                    <div class="checkTeam"> <input type="checkbox" class="checkbox" name="checked">알고리즘 스터디 기초반</div>
+                                </div>
+                            </div>
+
+                            <div class="content" id="submitBox">
+                                <button type="submit" id="submitButton" name="calSubmit">확인</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <!-- popup div 끝 -->
+
+    
+</div>
+</body>
+</html>
