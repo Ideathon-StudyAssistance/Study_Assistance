@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="psycss/font.css">
         <link rel="stylesheet" href="psycss/base.css">
         <link rel="stylesheet" href="psycss/calendar.css">
+        <link rel="stylesheet" href="psycss/popup.css">
         <link rel="stylesheet" href="psycss/opensource/css/bootstrap.min.css">
         <script type="text/javascript" src="psycss/opensource/js/jquery-3.6.0.min.js"></script>
         <script type="text/javascript" src="psycss/opensource/js/bootstrap.min.js"></script>
@@ -64,37 +65,90 @@
                         <div class="day day--disabled">29</div>
                         <div class="day day--disabled">30</div>
                         <div class="day day--disabled">31</div>
-                        <div class="day">1</div>
-                        <div class="day">2</div>
-                        <div class="day">3</div>
-                        <div class="day">4</div>
-                        <div class="day">5</div>
-                        <div class="day">6</div>
-                        <div class="day">7</div>
-                        <div class="day">8</div>
-                        <div class="day">9</div>
-                        <div class="day">10</div>
-                        <div class="day">11</div>
-                        <div class="day">12</div>
-                        <div class="day">13</div>
-                        <div class="day">14</div>
-                        <div class="day">15</div>
-                        <div class="day">16</div>
-                        <div class="day">17</div>
-                        <div class="day">18</div>
-                        <div class="day">19</div>
-                        <div class="day">20</div>
-                        <div class="day">21</div>
-                        <div class="day">22</div>
-                        <div class="day">23</div>
-                        <div class="day">24</div>
-                        <div class="day">25</div>
-                        <div class="day">26</div>
-                        <div class="day">27</div>
-                        <div class="day">28</div>
-                        <div class="day">29</div>
-                        <div class="day">30</div>
-                        <div class="day">31</div>
+                        <div class="day" onclick="location.href='#popup2'">1</div>
+                        <div class="day" onclick="location.href='#popup2'">2</div>
+                        <div class="day" onclick="location.href='#popup2'">3</div>
+                        <div class="day" onclick="location.href='#popup2'">4</div>
+                        <div class="day" onclick="location.href='#popup2'">5</div>
+                        <div class="day" onclick="location.href='#popup2'">6</div>
+                        <div class="day" onclick="location.href='#popup2'">7</div>
+                        <div class="day" onclick="location.href='#popup2'">8</div>
+                        <div class="day" onclick="location.href='#popup2'">9</div>
+                        <div class="day" onclick="location.href='#popup2'">10</div>
+                        <div class="day" onclick="location.href='#popup2'">11</div>
+                        <div class="day" onclick="location.href='#popup2'">12</div>
+                        <div class="day" onclick="location.href='#popup2'">13</div>
+                        <div class="day" onclick="location.href='#popup2'">14</div>
+                        <div class="day" onclick="location.href='#popup2'">15</div>
+                        <div class="day" onclick="location.href='#popup2'">16</div>
+                        <div class="day" onclick="location.href='#popup2'">17</div>
+                        <div class="day" onclick="location.href='#popup2'">18</div>
+                        <div class="day" onclick="location.href='#popup2'">19</div>
+                        <div class="day" onclick="location.href='#popup2'">20</div>
+                        <div class="day" onclick="location.href='#popup2'">21</div>
+                        <div class="day" onclick="location.href='#popup2'">22</div>
+                        <div class="day" onclick="location.href='#popup2'">23</div>
+                        <div class="day" onclick="location.href='#popup2'">24</div>
+                        <div class="day" onclick="location.href='#popup2'">25</div>
+                        <div class="day" onclick="location.href='#popup2'">26</div>
+                        <div class="day" onclick="location.href='#popup2'">27</div>
+                        <div class="day" onclick="location.href='#popup2'">28</div>
+                        <div class="day" onclick="location.href='#popup2'">29</div>
+                        <div class="day" onclick="location.href='#popup2'">30</div>
+                        <div class="day" onclick="location.href='#popup2'">31</div>
+                        
+                        <div id="popup2" class="overlay light">
+                            <a class="cancel" href="#"></a>
+                            <div class="popup">
+                                <div id="myCenter">
+                                    <div id="contents">
+                                        <div id="top">
+                                            <input type="text" class="textInput" id="title" placeholder="제목 입력" name="title">
+                                            <img id="titleLogo" src="img/popupLogo.svg" width="5%">
+                                        </div>                    
+                                        <img id="popupLine" src="img/popupLine.svg">                  
+                                        <div id="addContents">    
+                                            <div class="content">
+                                                <img class="icons" src="img/clock.svg">
+                                                <label for="date-time">날짜/시간 설정  </label>
+                                                <input type="datetime-local" class="textInput" id="date-time"
+                                                name="date-time" value="2021-07-01T13:30"
+                                                min="2021-07-01T00:00" max="2021-07-14T00:00">
+                                            </div>                  
+                                            <div class="content">
+                                                <img class="icons" src="img/link.svg">
+                                                <input type="text" class="textInput" placeholder="링크 추가" name="addLink">
+                                            </div>
+                                            <div class="content">
+                                                <img class="icons" src="img/note.svg">
+                                                <input type="text" class="textInput" placeholder="메모 추가" name="addLink">
+                                                <button type="submit" id="findFile" name="findFile">찾아보기</button>
+                                            </div>                   
+                                            <div class="content">
+                                                <img class="icons" src="img/kakaoLogo.svg">
+                                                <label for="kakao-notice">카카오톡 알림 설정 </label>
+                                                <input type="datetime-local" class="textInput" id="kakao-notice"
+                                                name="kakao-notice" value="2021-07-01T13:30"
+                                                min="2021-07-01T00:00" max="2021-07-14T00:00">
+                                            </div>                   
+                                            <div class="content">
+                                                <img class="icons" src="img/calendar.svg"> 공유할 공유 캘린더 설정
+                                                <div id="myCalList">
+                                                    <div class="checkTeam"> <input type="checkbox" class="checkbox" name="checked">멋쟁이사자처럼 아이디어톤 4팀 </div>
+                                                    <div class="checkTeam"> <input type="checkbox" class="checkbox" name="checked">멋쟁이사자처럼 여름방학 전체 일정 </div>
+                                                    <div class="checkTeam"> <input type="checkbox" class="checkbox" name="checked">멋쟁이사자처럼 스터디 </div>
+                                                    <div class="checkTeam"> <input type="checkbox" class="checkbox" name="checked">OS Lab 연구실 일정 캘린더</div>
+                                                    <div class="checkTeam"> <input type="checkbox" class="checkbox" name="checked">알고리즘 스터디 기초반</div>
+                                                </div>
+                                            </div>                   
+                                            <div class="content" id="submitBox">
+                                                <button type="submit" id="submitButton" name="calSubmit" onclick="location.href='#'">확인</button>
+                                            </div>                   
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <section class="task task--warning">
                             <input type="checkbox" name="" value="" checked>
                             Python 레벨 테스트 준비
