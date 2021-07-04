@@ -1,19 +1,7 @@
-.rightSpace {
-    width: 25%;
-    height: 100%;
-    display: flex;
-}
-
+/* 오른쪽 공간 아이콘 설정 */
 .menu {
     margin: 50px 0px 10px 10px;
     width: 200px;
-    height: 50px;
-}
-
-.logout {
-    float: right;
-    margin: 0px;
-    width: 130px;
     height: 50px;
 }
 
@@ -25,6 +13,7 @@
     height: 200px;
 }
 
+/* 사이드메뉴 설정 */
 .sidebar{
     position: fixed;
     right: -250px;
@@ -73,7 +62,8 @@
     list-style: none;
     text-decoration: none;
     font-family: 'GyeonggiBatang';
-    font-size: 20px; 
+    font-size: 20px;
+    
 }
 
 .sidebar ul {
@@ -87,4 +77,59 @@
 
 #check {
     display: none;
+}
+
+check #menu, label #cancel{
+    position: absolute;
+    right: 0;
+    width: 200px;
+    height: 50px;
+}
+
+label #menu {
+    float: right;
+    right: 40px;
+    top: 25px;
+    font-size: 35px;
+    transition: all .5s;
+    margin: 50px 0px 10px 10px;
+    cursor: pointer;
+}
+
+label #cancel{
+    float: right;
+    right: -150px;
+    top: 17px;
+    font-size: 30px;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+#check:checked ~ .sidebar{
+    right: 0;
+}
+
+#check:checked ~ label #menu #cancel{
+ right: 250px;
+ opacity: 0;
+ pointer-events: none;
+}
+
+#check:checked ~ label #cancel{
+ right: 195px;  
+}
+
+#check:checked ~ body{
+    margin-right: 1000px;
+    opacity: 0.4;  
+   }
+
+.sidebarheader a {
+    text-decoration: none;
+}
+
+
+.accounticon .menusettingicon {
+    width: 30px;
+    height: 30px;
 }
