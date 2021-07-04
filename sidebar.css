@@ -1,0 +1,90 @@
+.rightSpace {
+    width: 25%;
+    height: 100%;
+    display: flex;
+}
+
+.menu {
+    margin: 50px 0px 10px 10px;
+    width: 200px;
+    height: 50px;
+}
+
+.logout {
+    float: right;
+    margin: 0px;
+    width: 130px;
+    height: 50px;
+}
+
+.bodyChar1 {
+    margin-top: 300px;
+    margin-left: 20px;
+    margin-right: 230px;
+    width: 120px;
+    height: 200px;
+}
+
+.sidebar{
+    position: fixed;
+    right: -250px;
+    width: 250px;
+    height: 70vh;
+    background: #FFFFFF;
+    transition: all .5s ease;
+    display: flex;
+    flex-direction: column;
+    z-index: 5;
+}
+
+.sidebarheader{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    padding: 10px;
+    user-select: none;
+}
+
+.sidebarheader img{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    padding: 10px;
+    user-select: none;
+}
+
+.sidebar_content ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: #0D1117;
+    padding-right: 40px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255,255,255,.1);
+    border-bottom: 1px solid #0D1117;
+    transition: .4s;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'GyeonggiBatang';
+    font-size: 20px; 
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar_content ul li:hover a{
+ padding-left: 17px;
+ color:#7FD8DA;
+}
+
+#check {
+    display: none;
+}
