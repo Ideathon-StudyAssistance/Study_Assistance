@@ -13,7 +13,8 @@
     <div id = "containerSpace">
         <div class = "leftSpace">
             <div class = "mainLogoSpace">
-                <img class = "mainLogo" src="icon/mainLogo.svg">
+                <a href="mainPage.html">
+                <img class = "mainLogo" src="icon/mainLogo.svg"></a>
             </div>
         </div>
 
@@ -24,18 +25,14 @@
                             <p>오늘의 schedule</p>
                         </div>
                         <div class = "boxBottom">
-                            <ul>
-                                <li>재무재표 14차시   |   10:00 - 12:00
+                                <input name = "sch" value="one" type="checkbox"><label for = "sch">재무재표 14차시   |   10:00 - 12:00</label>
                                     <a id = "school" href="https://commons.sch.ac.kr/em/6046da463095a?content_id=6046da463095a&TargetUrl=https://lms.sch.ac.kr&asskey=VFZSSmQwOVVRWGM9&rskey=0a4a6c3133f37867f3755a9d555937ed&cmsid=67952&startat=0&endat=-9999&pr=1">
                                         강의바로듣기
-                                      </a>
-                                </li>
-                                <li>인터넷프로그래밍 기말 팀플 3차 모임   |   13:00 - 15:00
+                                      </a><br>
+                                <input name ="sch" value="two" type="checkbox">인터넷프로그래밍 기말 팀플 3차 모임   |   13:00 - 15:00<br>
                                     <a id = "shortcut" href="ShareCalendar.html">
                                         일정바로가기
-                                      </a>
-                                </li>
-                            </ul>
+                                    </a>
                         </div>
                     </div>
                     <div class = "todoBox">
@@ -43,11 +40,9 @@
                             <p>오늘의 To-Do</p>
                         </div>
                         <div class = "boxBottom">
-                            <ul>
-                                <li>재무재표 14차시 퀴즈 준비   |   09:00 - 10:00</li>
-                                <li>[Eclipse로 배우는 JAVA프로그래밍] 5-2단원 문제 풀이</li>
-                                <li>코드잇 [파이썬 기초] 21차시 학습</li>
-                            </ul>
+                                <input name ="todo" value="one" type="checkbox"> 14차시 퀴즈 준비   |   09:00 - 10:00 <br>
+                                <input name ="todo" value="two" type="checkbox">[Eclipse로 배우는 JAVA프로그래밍] 5-2단원 문제 풀이<br>
+                                <input name ="todo" value="three" type="checkbox">코드잇 [파이썬 기초] 21차시 학습
                         </div>
                     </div>
                     <div class = "scheduleC">
@@ -56,7 +51,7 @@
                         </div>
                         <div class = "boxBottom_sch">
                             <a href ="ScheduleCalendar.html">
-                                <img class = "mainp_calender" src= "icon/calender.svg">
+                                <img class = "mainp_calendar" src= "icon/calendar.svg">
                             </a>
                         </div>
                     </div>
@@ -66,7 +61,7 @@
                         </div>
                         <div class = "boxBottom_sch">
                             <a href = "TodoCalendar.html">
-                                <img class = "mainp_calender" src= "icon/calender.svg">
+                                <img class = "mainp_calendar" src= "icon/calendar2.svg">
                             </a>
                         </div>
                     </div>
@@ -100,8 +95,10 @@
                         </header>
                         <div class = "sidebar_content">
                             <ul>
+                                <li><a href ="ScheduleCalendar.html">Schedule캘린더</a></li>
+                                <li><a href ="TodoCalendar.html">Todo캘린더</a></li>
                                 <li><a href ="ShareCalendarList.html">공유캘린더</a></li>
-                                <li><a href ="firstPage.html">로그아웃</a></li>
+                                <li><a href ="closePage.html">로그아웃</a></li>
                             </ul>
                             <label for = "check"></label>
                         </div>

@@ -1,3 +1,4 @@
+
 /* 폰트 불러오기 */
 /* 경기천년바탕 */
 @font-face {
@@ -39,6 +40,8 @@
     height: 100%;
 }
 
+/* 전체 레이아웃 설정 */
+
 #containerSpace {
     width: 100%;
     height: 100%;
@@ -46,7 +49,7 @@
     justify-content: space-around;
 }
 
-
+/* 왼쪽공간 설정 */
 .leftSpace {
     width: 25%;
     height: 100%;
@@ -57,6 +60,7 @@
     margin: 20px;
 }
 
+/* 가운데공간 설정 */
 .centerSpace {
     width: 50%;
     height: 100%;
@@ -67,6 +71,7 @@
     flex-direction: column;
 }
 
+/* 캘린더 및 todo, 스케줄 리스트 포함할 큰 박스 */
 .mainBox {
     background:#e9f9f9;
     width: 100%;
@@ -78,9 +83,10 @@
     flex-direction: row;
 }
 
+/* 캘린더 및 to, 스케줄 리스트 */
 .ddayBox {
     height: 280px;
-    width: 320px;
+    width: 340px;
     background-color: #FFFFFF;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -88,7 +94,7 @@
 }
 .todoBox {
     height: 280px;
-    width: 320px;
+    width: 340px;
     background-color: #FFFFFF;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -96,14 +102,14 @@
 }
 .scheduleC {
     height: 280px;
-    width: 320px;
+    width: 340px;
     background-color: #FFFFFF;
     margin-bottom: 20px;
     margin-right: 20px;
 }
 .todoC {
     height: 280px;
-    width: 320px;
+    width: 340px;
     background-color: #FFFFFF;
     margin-bottom: 20px;
 }
@@ -123,6 +129,7 @@
 
 .boxBottom {
     background-color: #FFFFFF;
+    margin-left: 10px;
     text-align:left;
     line-height: 20px;
     font-family: 'GyeonggiBatang';
@@ -132,6 +139,7 @@
 
 }
 
+/* 푸터 */
 .footer {
     width: 100%;
     height: 7%;
@@ -152,22 +160,17 @@
     font-size: 12px;
  }
 
+/* 오른쪽 공간 설정 */
 .rightSpace {
     width: 25%;
     height: 100%;
     display: flex;
 }
 
+/* 오른쪽 공간 아이콘 설정 */
 .menu {
     margin: 50px 0px 10px 10px;
     width: 200px;
-    height: 50px;
-}
-
-.logout {
-    float: right;
-    margin: 0px;
-    width: 130px;
     height: 50px;
 }
 
@@ -179,6 +182,7 @@
     height: 200px;
 }
 
+/* 사이드메뉴 설정 */
 .sidebar{
     position: fixed;
     right: -250px;
@@ -189,8 +193,6 @@
     display: flex;
     flex-direction: column;
     z-index: 5;
-
-
 }
 
 .sidebarheader{
@@ -213,7 +215,6 @@
     user-select: none;
 }
 
-
 .sidebar_content ul a {
     display: block;
     height: 100%;
@@ -222,6 +223,7 @@
     font-size: 20px;
     color: #0D1117;
     padding-right: 40px;
+    padding-left: 20px;
     box-sizing: border-box;
     border-top: 1px solid rgba(255,255,255,.1);
     border-bottom: 1px solid #0D1117;
@@ -229,15 +231,13 @@
     list-style: none;
     text-decoration: none;
     font-family: 'GyeonggiBatang';
-    font-size: 25px;
+    font-size: 20px;
+    
 }
 
 .sidebar ul {
     list-style: none;
 }
-
-
-
 
 .sidebar_content ul li:hover a{
  padding-left: 17px;
@@ -246,18 +246,7 @@
 
 #check {
     display: none;
-    /* display: flex;
-    justify-content: flex-end;
-    flex-direction: column; */
 }
-
-.barlogo {
- /* display: none; */
- display: flex;
- justify-content: flex-end;
- flex-direction: column;
-}
-
 
 check #menu, label #cancel{
     position: absolute;
@@ -297,43 +286,10 @@ label #cancel{
  right: 195px;  
 }
 
-/* #check:checked ~ section{
- margin-right: 250px;  
-} */
-
 #check:checked ~ body{
     margin-right: 1000px;
     opacity: 0.4;  
    }
-
-/* section {
-    background: rgba(255,255,255,.1);
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    transition: all .5s;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transition:all .5s;
-    opacity: 0;
-    visibility: hidden;
-    z-index: 1; 
-}  */
-
-.background {
-    position: fixed;
-    background: rgba(255,255,255,.6);
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transition:all .5s;
-    opacity: 0;
-    visibility: hidden;
-    z-index: 1;   
-}
 
 .sidebarheader a {
     text-decoration: none;
@@ -345,7 +301,7 @@ label #cancel{
     justify-content: center;
 }
 
-.mainp_calender {
+.mainp_calendar {
     width: 300px;
     height: 190px;
     margin-top: 10px;
@@ -356,14 +312,7 @@ label #cancel{
     height: 30px;
 }
 
-/* section {
-    background: url(icon/bg_test.png) no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    transition: all .5s;
-} */
-
+/* 스케줄 박스 강의 및 일정 바로가기 설정  */
 #school, #shortcut {
     margin-left:1%;
     border: outset 1px #5e7e9b;
@@ -377,3 +326,22 @@ label #cancel{
     background-color:#d7f1f1;
     box-shadow:0.5px 0.5px #5c5c5c;
 }
+
+/*          scrollbar        */
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px; height:5px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background:#c0c2c2;  border-radius: 10px;
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #7FD8DA;  border-radius: 10px;
+  }
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #7feef0;  border-radius: 10px;
+  }
