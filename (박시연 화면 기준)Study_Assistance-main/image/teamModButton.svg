@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="59" height="59" viewBox="0 0 59 59">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.291" y1="0.285" x2="0.799" y2="0.509" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7fd8da"/>
+      <stop offset="1" stop-color="#ebe684"/>
+      <stop offset="1" stop-color="#ede682"/>
+    </linearGradient>
+    <filter id="패스_4" x="0" y="0" width="59" height="59" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="그룹_31" data-name="그룹 31" transform="translate(1.5 1.5)">
+    <g id="그룹_18" data-name="그룹 18" transform="translate(0 0)">
+      <g transform="matrix(1, 0, 0, 1, -1.5, -1.5)" filter="url(#패스_4)">
+        <path id="패스_4-2" data-name="패스 4" d="M25,0A24.994,24.994,0,0,0,5.793,40.994V50L13.7,47.308A25,25,0,1,0,25,0Z" transform="translate(1.5 1.5)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+  </g>
+  <text id="수정" transform="translate(10.5 17.68)" fill="#fff" font-size="17" font-family="GyeonggiBatangB, GyeonggiBatang"><tspan x="0" y="14">수정</tspan></text>
+</svg>

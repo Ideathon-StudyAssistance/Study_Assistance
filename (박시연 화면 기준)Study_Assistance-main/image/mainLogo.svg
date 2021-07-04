@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="169" height="129" viewBox="0 0 169 129">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.269" y1="0.351" x2="0.835" y2="0.865" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7fd8da"/>
+      <stop offset="1" stop-color="#ede682"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.268" y1="0.353" x2="0.835" y2="0.865" xlink:href="#linear-gradient"/>
+    <filter id="패스_4" x="0" y="0" width="169" height="129" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="그룹_64" data-name="그룹 64" transform="translate(-1270.5 -728.75)">
+    <path id="패스_4-2" data-name="패스 4" d="M80,0c44.183,0,80,26.863,80,60s-35.817,60-80,60S0,93.137,0,60,35.817,0,80,0Z" transform="translate(1272 730.25)" fill="url(#linear-gradient)"/>
+    <g transform="matrix(1, 0, 0, 1, 1270.5, 728.75)" filter="url(#패스_4)">
+      <path id="패스_4-3" data-name="패스 4" d="M80,0c44.183,0,80,26.863,80,60,0,14.534-6.89,27.86-18.536,38.386V120l-25.315-6.46A101.593,101.593,0,0,1,80,120C35.817,120,0,93.137,0,60S35.817,0,80,0Z" transform="translate(1.5 1.5)" fill="url(#linear-gradient-2)"/>
+    </g>
+    <text id="공_부_할_땐_" data-name="공 부 할 땐," transform="translate(1352 761.816)" fill="#fff" font-size="12" font-family="GyeonggiBatangR, GyeonggiBatang"><tspan x="-28.98" y="0">공 부 할 땐,</tspan></text>
+    <g id="그룹_63" data-name="그룹 63" transform="translate(1299 773.671)">
+      <text id="공비서" transform="translate(53 39.441)" fill="#fff" font-size="39" font-family="GyeonggiBatangB, GyeonggiBatang"><tspan x="-53.43" y="0">공비서</tspan></text>
+      <circle id="타원_23" data-name="타원 23" cx="3.247" cy="3.247" r="3.247" transform="translate(14.934)" fill="#fff"/>
+      <circle id="타원_24" data-name="타원 24" cx="3.247" cy="3.247" r="3.247" transform="translate(51.295)" fill="#fff"/>
+      <circle id="타원_25" data-name="타원 25" cx="3.247" cy="3.247" r="3.247" transform="translate(87.656)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

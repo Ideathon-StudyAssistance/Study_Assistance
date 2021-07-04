@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="209" height="59" viewBox="0 0 209 59">
+  <defs>
+    <filter id="사각형_106" x="0" y="0" width="209" height="59" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="그룹_130" data-name="그룹 130" transform="translate(-1718.5 -98.5)">
+    <g id="그룹_81" data-name="그룹 81">
+      <g transform="matrix(1, 0, 0, 1, 1718.5, 98.5)" filter="url(#사각형_106)">
+        <rect id="사각형_106-2" data-name="사각형 106" width="200" height="50" transform="translate(1.5 1.5)" fill="rgba(127,216,219,0.75)"/>
+      </g>
+      <rect id="사각형_109" data-name="사각형 109" width="30" height="50" transform="translate(1720 100)" fill="#ede682"/>
+    </g>
+    <text id="MENU" transform="translate(1833 134)" fill="#fff" font-size="30" font-family="GyeonggiBatangB, GyeonggiBatang"><tspan x="-42.87" y="0">MENU</tspan></text>
+  </g>
+</svg>
