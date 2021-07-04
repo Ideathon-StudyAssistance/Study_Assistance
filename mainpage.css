@@ -297,6 +297,12 @@ label #cancel{
     text-decoration: none;
 }
 
+
+.accounticon .menusettingicon {
+    width: 30px;
+    height: 30px;
+}
+
 .boxBottom_sch {
     display: flex;
     align-items: center;
@@ -307,11 +313,6 @@ label #cancel{
     width: 300px;
     height: 190px;
     margin-top: 10px;
-}
-
-.accounticon .menusettingicon {
-    width: 30px;
-    height: 30px;
 }
 
 /* 스케줄 박스 강의 및 일정 바로가기 설정  */

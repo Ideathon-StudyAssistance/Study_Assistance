@@ -1,5 +1,12 @@
-/* 오른쪽 공간 아이콘 설정 */
-.menu {
+.rightSpace {
+    width: 25%;
+    height: 100%;
+    display: flex;
+}
+
+/* 사이드메뉴 */
+  /* 오른쪽 공간 아이콘 설정 */
+  .menu {
     margin: 50px 0px 10px 10px;
     width: 200px;
     height: 50px;
@@ -11,6 +18,7 @@
     margin-right: 230px;
     width: 120px;
     height: 200px;
+    opacity: 0;
 }
 
 /* 사이드메뉴 설정 */
@@ -133,3 +141,5 @@ label #cancel{
     width: 30px;
     height: 30px;
 }
+
+
