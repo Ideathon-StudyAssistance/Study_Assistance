@@ -1,14 +1,21 @@
 # :calendar: [공비서] Study_Assistance
 
 멋쟁이 사자처럼 9th 중앙 아이디어톤 참가 웹 서비스 아이디어 <br>
-- 프론트 UI 구현 단계 <br>
+#### [ 프론트 UI 구현 단계 ]  <br>
+
+<br>
+
+- [공비서 페이지 바로가기](https://Ideathon-StudyAssistance.github.io/Study_Assistance/(박시연%20화면%20기준)Study_Assistance-main/firstPage.html) <br>
+- [아이디어 상세 소개 영상](https://youtu.be/ZyfvhlNO8L0)
 
 
-[공비서 바로가기](https://Ideathon-StudyAssistance.github.io/Study_Assistance/(박시연%20화면%20기준)Study_Assistance-main/firstPage.html)
 
 <br>
 
 ## [공비서] 아이디어 소개
+
+
+<br>
 
                                                                                                   
 - 아이디어 소개 : 캘린더의 알림, 팀원들과의 공유 및 협업, 학습 현황 기능 등을 통해 개인과 팀의 효율적인 일정 관리를 돕는 웹 서비스
