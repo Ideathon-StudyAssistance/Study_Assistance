@@ -53,6 +53,7 @@
 10. [Close Page](https://Ideathon-StudyAssistance.github.io/Study_Assistance/(박시연%20화면%20기준)Study_Assistance-main/closePage.html)
 
 <img src="https://user-images.githubusercontent.com/71310074/124388275-394bef80-dd1d-11eb-9351-e50a698b4fa9.png" width="500">
+<img src="https://user-images.githubusercontent.com/71310074/124388283-42d55780-dd1d-11eb-8eef-adfbcbdd8260.png" width="500">
 <img src="https://user-images.githubusercontent.com/71310074/124388285-4537b180-dd1d-11eb-88c0-bf4607f9e2da.png" width="500">
 <img src="https://user-images.githubusercontent.com/71310074/124388293-51237380-dd1d-11eb-987b-6c0236fbbcbd.png" width="500">
 <img src="https://user-images.githubusercontent.com/71310074/124388296-5385cd80-dd1d-11eb-8c4a-01d9ee2d8169.png" width="500">
