@@ -1,0 +1,337 @@
+<!-- 공유 캘린더 리스트 페이지 -->
+<!-- 팝업 2종류 : 1) [추가] 버튼 / 2) [팀 캘린더] 수정 버튼 -->
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <title>Shared Calendar Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/scrollbar.css">
+    <link rel="stylesheet" type="text/css" href="css/shareCalendarList.css">
+    <link rel="stylesheet" type="text/css" href="css/CalendarSidebar.css">
+</head>
+<body>
+   <div id="left"> <img class="mainLogoImg" src="image/mainLogo.svg" onclick="location.href='mainpage.html'"></div>
+
+    <div class="container">
+        <div id="center">
+            
+            <div id="calListText"> 공유 캘린더 목록  </div>
+            
+            <div id="addCal">
+                <a class="button" href="#popup2">
+                    <button id="addButton" name="addSharedCal">추가</button>
+                </a>
+            </div>
+
+            <div id="calList">
+
+                <div class="sharedList"> 
+                    <div class="char"><img src="image/calFaceChar.svg" width="60%"></div>
+                    <div class="list">
+                        <div class="teamName" onclick="location.href='ShareCalendar.html'">멋쟁이사자처럼 아이디어톤 4팀</div>
+                        <div class="modify">
+                            <a class="button2" href="#popup3">
+                                <img src="image/teamModButton.svg" width="50%">
+                            </a>
+                            <img src="image/delete.svg" width="20%">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sharedList"> 
+                    <div class="char"><img src="image/calFaceChar.svg" width="60%"></div>
+                    <div class="list">
+                        <div class="teamName">멋쟁이사자처럼 여름방학 전체 일정</div>
+                        <div class="modify">
+                            <a class="button2" href="#popup3">
+                                <img src="image/teamModButton.svg" width="50%">
+                            </a>
+                            <img src="image/delete.svg" width="20%">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sharedList"> 
+                    <div class="char"><img src="image/calFaceChar.svg" width="60%"></div>
+                    <div class="list">
+                        <div class="teamName">멋쟁이사자처럼 스터디</div>
+                        <div class="modify">
+                            <a class="button2" href="#popup3">
+                                <img src="image/teamModButton.svg" width="50%">
+                            </a>
+                            <img src="image/delete.svg" width="20%">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sharedList"> 
+                    <div class="char"><img src="image/calFaceChar.svg" width="60%"></div>
+                    <div class="list">
+                        <div class="teamName">OS Lab 연구실 일정 캘린더</div>
+                        <div class="modify">
+                            <a class="button2" href="#popup3">
+                                <img src="image/teamModButton.svg" width="50%">
+                            </a>
+                            <img src="image/delete.svg" width="20%">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sharedList"> 
+                    <div class="char"><img src="image/calFaceChar.svg" width="60%"></div>
+                    <div class="list">
+                        <div class="teamName">파이썬 알고리즘 스터디</div>
+                        <div class="modify">
+                            <a class="button2" href="#popup3">
+                                <img src="image/teamModButton.svg" width="50%">
+                            </a>
+                            <img src="image/delete.svg" width="20%">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sharedList"> 
+                    <div class="char"><img src="image/calFaceChar.svg" width="60%"></div>
+                    <div class="list">
+                        <div class="teamName">자바 스터디 기초</div>
+                        <div class="modify">
+                            <a class="button2" href="#popup3">
+                                <img src="image/teamModButton.svg" width="50%">
+                            </a>
+                            <img src="image/delete.svg" width="20%">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sharedList"> 
+                    <div class="char"><img src="image/calFaceChar.svg" width="60%"></div>
+                    <div class="list">
+                        <div class="teamName">순천향 해커톤 1차순카톤 2팀</div>
+                        <div class="modify">
+                            <a class="button2" href="#popup3">
+                                <img src="image/teamModButton.svg" width="50%">
+                            </a>
+                            <img src="image/delete.svg" width="20%">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sharedList"> 
+                    <div class="char"><img src="image/calFaceChar.svg" width="60%"></div>
+                    <div class="list">
+                        <div class="teamName">독서 모임</div>
+                        <div class="modify">
+                            <a class="button2" href="#popup3">
+                                <img src="image/teamModButton.svg" width="50%">
+                            </a>
+                            <img src="image/delete.svg" width="20%">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <footer>
+            <img src="img/footerLogo.svg" alt="공비서" id="footerLogo">
+            <span id="footerSpan"> ⓒ 2021. 일개미 All rights reserved. </span>
+        </footer>
+    </div>
+
+    <div id = "right">
+        <div class = "sidespace">
+            <div class ="menuoutspace">
+                <input type="checkbox" id="check">
+                <label for ="check">
+                    <img src="icon/menu.svg" id="menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" id = "cancel" class="bi bi-x" viewBox="0 0 16 16">
+                        <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                </label>
+                <div class = "sidebar">
+                    <header>
+                        <div class = "sidebarheader">
+                            <a href = "#">
+                                <img src="icon/이미지 2.svg"></a>
+                            <a href = "setting.html">
+                                <img src="icon/gear.svg">
+                            </a> 
+                        </div>
+                    </header>
+                    <div class = "sidebar_content">
+                        <ul>
+                            <li><a href ="ScheduleCalendar.html">Schedule캘린더</a></li>
+                            <li><a href ="TodoCalendar.html">Todo캘린더</a></li>
+                            <li><a href ="ShareCalendarList.html">공유캘린더</a></li>
+                            <li><a href ="closePage.html">로그아웃</a></li>
+                        </ul>
+                        <label for = "check"></label>
+                    </div>
+                    <section></section>
+                    <label for = "check" class = "background"></label>
+                </div>
+            </div>
+            <div class = "sideicon">
+            </div>
+
+
+    <!-- 팝업 부분. 버튼 클릭해야 나타나는 부분 -->
+    <div id="popup2" class="overlay light">
+        <a class="cancel" href="#"></a>
+        <div class="popup">
+                <div id="myCenter">
+                    <div id="contents">
+                        <div id="top">
+                            <input type="text" class="textInput" id="title" placeholder="공유캘린더 제목" name="title">
+                            <img id="titleLogo" src="image/popupLogo.svg" width="5%">
+                        </div>
+
+                        <img id="popupLine" src="image/popupLine.svg">
+
+                        <div id="addContents">    
+                            <div class="content">
+                                <img class="icons" src="image/clock.svg">
+                                <label for="date-time">날짜/시간 설정  </label>
+                                <input type="datetime-local" class="textInput" id="date-time"
+                                    name="date-time" value="2021-07-04T13:30"
+                                    min="2021-07-04T00:00" max="2021-07-20T00:00">
+                            </div>
+
+                            <div class="content">
+                                <img class="icons" src="image/link.svg">
+                                <input type="text" class="textInput" placeholder=" 링크 추가" name="addLink">
+                            </div>
+
+                            <div class="content">
+                                <img class="icons" src="image/note.svg">
+                                <input type="text" class="textInput" placeholder=" 메모/상세내용 추가" name="addLink">
+                                <button id="findFile" name="findFile">파일 첨부</button>
+                            </div>
+
+                            <div class="content">
+                                <img class="icons" src="image/to-do-list.svg">
+                                <textarea placeholder="  Team's ToDo" cols='30' rows='7'></textarea>
+                            </div>
+
+
+                            <div class="content">
+                                <img class="icons" src="image/kakaoLogo.svg">
+                                <label for="kakao-notice">카카오톡 알림 설정 </label>
+                                <input type="datetime-local" class="textInput" id="kakao-notice"
+                                    name="kakao-notice" value="2021-07-04T13:30"
+                                    min="2021-07-04T00:00" max="2021-07-20T00:00">
+                            </div>
+
+                            <div class="content">
+                                <img class="icons" src="image/calendar.svg"> 공유 대상 설정
+                                <div id="myCalList">
+                                    <div class="checkTeam"> <input type="checkbox" class="checkbox" name="checked">박시연 </div>
+                                    <div class="checkTeam"> <input type="checkbox" class="checkbox" name="checked">정은서 </div>
+                                    <div class="checkTeam"> <input type="checkbox" class="checkbox" name="checked">시연</div>
+                                    <div class="checkTeam"> <input type="checkbox" class="checkbox" name="checked">예빈</div>
+                                    <div class="checkTeam"> <input type="checkbox" class="checkbox" name="checked">은서</div>
+                                    <div class="checkTeam"> <input type="checkbox" class="checkbox" name="checked">이예빈</div>
+                                    <div class="checkTeam"> <input type="checkbox" class="checkbox" name="checked">박시연 </div>
+                                    <div class="checkTeam"> <input type="checkbox" class="checkbox" name="checked">정은서 </div>
+                                    <div class="checkTeam"> <input type="checkbox" class="checkbox" name="checked">시연</div>
+                                    <div class="checkTeam"> <input type="checkbox" class="checkbox" name="checked">예빈</div>
+                                    <div class="checkTeam"> <input type="checkbox" class="checkbox" name="checked">은서</div>
+                                    <div class="checkTeam"> <input type="checkbox" class="checkbox" name="checked">이예빈</div>
+                                </div>
+                            </div>
+
+                            <div class="content" id="submitBox">
+                                <button type="submit" id="submitButton" name="calSubmit">확인</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <!-- popup div 끝 -->
+
+    <!-- 팝업 부분. 공유 캘린더 수정 부분 placeholder을 value로 대체한 상태 -->
+    <div id="popup3" class="overlay light">
+        <a class="cancel" href="#"></a>
+        <div class="popup">
+                <div id="myCenter">
+                    <div id="contents">
+                        <div id="top">
+                            <input type="text" class="textInput" id="title" value="멋쟁이사자처럼 아이디어톤 4팀" name="title">
+                            <img id="titleLogo" src="image/popupLogo.svg" width="5%">
+                        </div>
+
+                        <img id="popupLine" src="image/popupLine.svg">
+
+                        <div id="addContents">    
+                            <div class="content">
+                                <img class="icons" src="image/clock.svg">
+                                <label for="date-time">날짜/시간 설정  </label>
+                                <input type="datetime-local" class="textInput" id="date-time"
+                                    name="date-time" value="2021-07-04T13:30"
+                                    min="2021-07-04T00:00" max="2021-07-20T00:00">
+                            </div>
+
+                            <div class="content">
+                                <img class="icons" src="image/link.svg">
+                                <input type="text" class="textInput" value="https://www.notion.so/9-baa24ce626bc43228901b835719f56e6?p=8fe66a110e6c4eaba3358086300e6f17" name="addLink">
+                            </div>
+
+                            <div class="content">
+                                <img class="icons" src="image/note.svg">
+                                <input type="text" class="textInput" value="7/4 마감" name="addLink">
+                                <button id="findFile" name="findFile">파일 첨부</button>
+                            </div>
+
+                            <div class="content">
+                                <img class="icons" src="image/to-do-list.svg">
+                                <textarea placeholder="1. 영상 제출 마무리 " cols='30' rows='7'></textarea>
+                            </div>
+
+
+                            <div class="content">
+                                <img class="icons" src="image/kakaoLogo.svg">
+                                <label for="kakao-notice">카카오톡 알림 변경 </label>
+                                <input type="datetime-local" class="textInput" id="kakao-notice"
+                                    name="kakao-notice" value="2021-07-04T13:30"
+                                    min="2021-07-04T00:00" max="2021-07-20T00:00">
+                            </div>
+
+                            <div class="content">
+                                <img class="icons" src="image/calendar.svg"> 공유 대상 변경
+                                <div id="myCalList">
+                                    <div class="checkTeam"> <input type="checkbox" class="checkbox" name="checked">박시연 </div>
+                                    <div class="checkTeam"> <input type="checkbox" class="checkbox" checked name="checked">정은서 </div>
+                                    <div class="checkTeam"> <input type="checkbox" class="checkbox" checked name="checked">시연</div>
+                                    <div class="checkTeam"> <input type="checkbox" class="checkbox" name="checked">예빈</div>
+                                    <div class="checkTeam"> <input type="checkbox" class="checkbox" name="checked">은서</div>
+                                    <div class="checkTeam"> <input type="checkbox" class="checkbox" checked name="checked">이예빈</div>
+                                    <div class="checkTeam"> <input type="checkbox" class="checkbox" name="checked">박시연 </div>
+                                    <div class="checkTeam"> <input type="checkbox" class="checkbox" name="checked">정은서 </div>
+                                    <div class="checkTeam"> <input type="checkbox" class="checkbox" name="checked">시연</div>
+                                    <div class="checkTeam"> <input type="checkbox" class="checkbox" name="checked">예빈</div>
+                                    <div class="checkTeam"> <input type="checkbox" class="checkbox" name="checked">은서</div>
+                                    <div class="checkTeam"> <input type="checkbox" class="checkbox" name="checked">이예빈</div>
+                                </div>
+                            </div>
+
+                            <div class="content" id="submitBox">
+                                <button type="submit" id="submitButton" name="calSubmit">수정</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <!-- popup div 끝 -->
+
+    
+</div>
+</body>
+</html>

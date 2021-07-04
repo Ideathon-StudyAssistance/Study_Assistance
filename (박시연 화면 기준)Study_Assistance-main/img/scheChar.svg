@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="75.604" height="75.604" viewBox="0 0 75.604 75.604">
+  <g id="그룹_157" data-name="그룹 157" transform="translate(-1136 -763.198)">
+    <g id="그룹_155" data-name="그룹 155" transform="translate(1154.541 763.198) rotate(18)">
+      <g id="패스_4" data-name="패스 4" transform="translate(0)" fill="#fff">
+        <path d="M 30.00000190734863 58.50001525878906 C 25.50706100463867 58.50001525878906 21.05547142028809 57.43982696533203 17.1264820098877 55.43405532836914 L 16.56167221069336 55.14571762084961 L 15.96130180358887 55.3499755859375 L 8.451162338256836 57.90520858764648 L 8.451162338256836 49.19293594360352 L 8.451162338256836 48.65158462524414 L 8.105451583862305 48.23501586914062 C 6.003081798553467 45.70167541503906 4.367841720581055 42.87349700927734 3.245151996612549 39.82902526855469 C 2.087152004241943 36.68882751464844 1.500001907348633 33.38186645507812 1.500001907348633 30.0000057220459 C 1.500001907348633 26.15186500549316 2.253331899642944 22.41963577270508 3.739061832427979 18.90698623657227 C 5.174421787261963 15.51339530944824 7.229581832885742 12.46533584594727 9.847461700439453 9.847465515136719 C 12.46533203125 7.229585647583008 15.51339149475098 5.174425601959229 18.906982421875 3.739065647125244 C 22.41963195800781 2.25333571434021 26.1518611907959 1.500005722045898 30.00000190734863 1.500005722045898 C 33.84814071655273 1.500005722045898 37.58037185668945 2.25333571434021 41.09303283691406 3.739065647125244 C 44.48661041259766 5.174425601959229 47.53467178344727 7.229585647583008 50.15255355834961 9.847465515136719 C 52.77042007446289 12.46533584594727 54.82558059692383 15.51339530944824 56.26095199584961 18.90698623657227 C 57.74667358398438 22.41963577270508 58.5 26.15186500549316 58.5 30.0000057220459 C 58.5 33.84814453125 57.74667358398438 37.58037567138672 56.26095199584961 41.09303665161133 C 54.82558059692383 44.48661422729492 52.77042007446289 47.53468704223633 50.15255355834961 50.15255737304688 C 47.53467178344727 52.77043533325195 44.48661041259766 54.82559585571289 41.09303283691406 56.26095581054688 C 37.58037185668945 57.74668502807617 33.84814071655273 58.50001525878906 30.00000190734863 58.50001525878906 Z" stroke="none"/>
+        <path d="M 30.00000190734863 2.999996185302734 C 26.35370254516602 2.999996185302734 22.81806945800781 3.713451385498047 19.49130249023438 5.120559692382812 C 16.27652359008789 6.480293273925781 13.38872528076172 8.427516937255859 10.90812301635742 10.90811538696289 C 8.427513122558594 13.38871765136719 6.480300903320312 16.27651596069336 5.120567321777344 19.49130630493164 C 3.713459014892578 22.81807327270508 3.000003814697266 26.35370635986328 3.000003814697266 30.0000057220459 C 3.000003814697266 33.20419311523438 3.555980682373047 36.33654022216797 4.652500152587891 39.31003952026367 C 5.716190338134766 42.19449615478516 7.266281127929688 44.87499237060547 9.259735107421875 47.27709579467773 L 9.951156616210938 48.11025238037109 L 9.951156616210938 55.81040954589844 L 16.67887878417969 53.52138519287109 L 17.80852508544922 54.09807205200195 C 21.52730178833008 55.99652862548828 25.74304580688477 57.00000762939453 30.00000190734863 57.00000762939453 C 33.64630126953125 57.00000762939453 37.18193435668945 56.28654861450195 40.50870132446289 54.87944030761719 C 43.72348022460938 53.51970672607422 46.61127853393555 51.57249450683594 49.09188842773438 49.09189605712891 C 51.57249069213867 46.61128234863281 53.51970291137695 43.72348403930664 54.87943649291992 40.50870513916016 C 56.28654479980469 37.18193817138672 57 33.64630508422852 57 30.0000057220459 C 57 26.35370635986328 56.28654479980469 22.81807327270508 54.87943649291992 19.49130630493164 C 53.51970291137695 16.27651596069336 51.57249069213867 13.38871765136719 49.09188079833984 10.90811538696289 C 46.61127853393555 8.427516937255859 43.72348022460938 6.480293273925781 40.50870132446289 5.120559692382812 C 37.18193435668945 3.713451385498047 33.64630126953125 2.999996185302734 30.00000190734863 2.999996185302734 M 30.00000190734863 -3.814697265625e-06 C 46.56854629516602 -3.814697265625e-06 60 13.43146133422852 60 30.0000057220459 C 60 46.56855010986328 46.56854629516602 60.00000762939453 30.00000190734863 60.00000762939453 C 25.0957145690918 60.00000762939453 20.46628952026367 58.82319641113281 16.4444694519043 56.77002716064453 L 6.951156616210938 60.00000762939453 L 6.951156616210938 49.19293975830078 C 2.583713531494141 43.93020629882812 3.814697265625e-06 37.26683807373047 3.814697265625e-06 30.0000057220459 C 3.814697265625e-06 13.43146133422852 13.43145751953125 -3.814697265625e-06 30.00000190734863 -3.814697265625e-06 Z" stroke="none" fill="#ede682"/>
+      </g>
+    </g>
+    <g id="그룹_156" data-name="그룹 156" transform="translate(62.802 669.482)">
+      <g id="그룹_86" data-name="그룹 86" transform="translate(1096 107.994)">
+        <path id="사각형_5" data-name="사각형 5" d="M5,0H25a5,5,0,0,1,5,5V8.164a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" transform="translate(0 4.082)" fill="#7fd8da"/>
+        <g id="사각형_7" data-name="사각형 7" transform="translate(0 10.497)" fill="#fff" stroke="#7fd8da" stroke-width="2">
+          <path d="M0,0H30a0,0,0,0,1,0,0V28.222a5,5,0,0,1-5,5H5a5,5,0,0,1-5-5V0A0,0,0,0,1,0,0Z" stroke="none"/>
+          <path d="M2,1H28a1,1,0,0,1,1,1V28.222a4,4,0,0,1-4,4H5a4,4,0,0,1-4-4V2A1,1,0,0,1,2,1Z" fill="none"/>
+        </g>
+        <g data-type="innerShadowGroup">
+          <rect id="사각형_13" data-name="사각형 13" width="4.082" height="8.164" rx="2.041" transform="translate(4.082)" fill="#ede682"/>
+          <rect id="사각형_13-2" data-name="사각형 13" width="4.082" height="8.164" rx="2.041" transform="translate(4.082)" fill="#fff"/>
+          <g id="사각형_13-3" data-name="사각형 13" transform="translate(4.082)" fill="none" stroke="#fff" stroke-width="1">
+            <rect width="4.082" height="8.164" rx="2.041" stroke="none"/>
+            <rect x="0.5" y="0.5" width="3.082" height="7.164" rx="1.541" fill="none"/>
+          </g>
+        </g>
+        <rect id="사각형_42" data-name="사각형 42" width="6.998" height="6.998" transform="translate(11.501 23.607)" fill="#ede682"/>
+        <rect id="사각형_47" data-name="사각형 47" width="6.998" height="6.998" transform="translate(11.501 31.181)" fill="rgba(237,230,130,0.25)"/>
+        <g id="사각형_52" data-name="사각형 52" transform="translate(9.909)" fill="#ede682" stroke="#fff" stroke-width="1">
+          <rect width="4.082" height="8.164" rx="2.041" stroke="none"/>
+          <rect x="0.5" y="0.5" width="3.082" height="7.164" rx="1.541" fill="none"/>
+        </g>
+        <g id="사각형_53" data-name="사각형 53" transform="translate(15.738)" fill="#ede682" stroke="#fff" stroke-width="1">
+          <rect width="4.082" height="8.164" rx="2.041" stroke="none"/>
+          <rect x="0.5" y="0.5" width="3.082" height="7.164" rx="1.541" fill="none"/>
+        </g>
+        <g id="사각형_55" data-name="사각형 55" transform="translate(21.565)" fill="#ede682" stroke="#fff" stroke-width="1">
+          <rect width="4.082" height="8.164" rx="2.041" stroke="none"/>
+          <rect x="0.5" y="0.5" width="3.082" height="7.164" rx="1.541" fill="none"/>
+        </g>
+        <rect id="사각형_57" data-name="사각형 57" width="6.998" height="6.998" transform="translate(3.926 16.029)" fill="rgba(237,230,130,0.5)"/>
+        <rect id="사각형_59" data-name="사각형 59" width="6.998" height="6.998" transform="translate(19.076 23.607)" fill="rgba(237,230,130,0.5)"/>
+        <g data-type="innerShadowGroup">
+          <rect id="사각형_178" data-name="사각형 178" width="4.082" height="8.164" rx="2.041" transform="translate(4.082)" fill="#ede682"/>
+          <rect id="사각형_178-2" data-name="사각형 178" width="4.082" height="8.164" rx="2.041" transform="translate(4.082)" fill="#fff"/>
+          <g id="사각형_178-3" data-name="사각형 178" transform="translate(4.082)" fill="none" stroke="#fff" stroke-width="1">
+            <rect width="4.082" height="8.164" rx="2.041" stroke="none"/>
+            <rect x="0.5" y="0.5" width="3.082" height="7.164" rx="1.541" fill="none"/>
+          </g>
+        </g>
+      </g>
+      <g id="그룹_97" data-name="그룹 97" transform="translate(1102.598 129.602)">
+        <g id="그룹_91" data-name="그룹 91" transform="translate(0 5.403)">
+          <g id="사각형_112" data-name="사각형 112" fill="none" stroke="#7fd8da" stroke-linejoin="round" stroke-width="1">
+            <path d="M0,0H1.6a2,2,0,0,1,2,2v.8a2,2,0,0,1-2,2H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" stroke="none"/>
+            <path d="M1,.5h.6A1.5,1.5,0,0,1,3.1,2v.8A1.5,1.5,0,0,1,1.6,4.3H1a.5.5,0,0,1-.5-.5V1A.5.5,0,0,1,1,.5Z" fill="none"/>
+          </g>
+          <g id="그룹_88" data-name="그룹 88" transform="translate(4.803 0.6)">
+            <line id="선_17" data-name="선 17" y2="3.602" transform="translate(2.401)" fill="none" stroke="#7fd8da" stroke-linecap="round" stroke-width="1"/>
+            <line id="선_19" data-name="선 19" y2="3.602" fill="none" stroke="#7fd8da" stroke-linecap="round" stroke-width="1"/>
+            <line id="선_20" data-name="선 20" x2="2.401" transform="translate(0 3.602)" fill="none" stroke="#7fd8da" stroke-linecap="round" stroke-width="1"/>
+          </g>
+          <g id="그룹_89" data-name="그룹 89" transform="translate(9.008 0.6)">
+            <line id="선_22" data-name="선 22" y2="3.602" fill="none" stroke="#7fd8da" stroke-linecap="round" stroke-width="1"/>
+            <line id="선_23" data-name="선 23" x2="2.401" transform="translate(0 3.602)" fill="none" stroke="#7fd8da" stroke-linecap="round" stroke-width="1"/>
+          </g>
+          <g id="그룹_90" data-name="그룹 90" transform="translate(13.213 0.6)">
+            <line id="선_24" data-name="선 24" y2="3.602" fill="none" stroke="#7fd8da" stroke-linecap="round" stroke-width="1"/>
+            <line id="선_25" data-name="선 25" x2="2.401" transform="translate(0 3.602)" fill="none" stroke="#7fd8da" stroke-linecap="round" stroke-width="1"/>
+            <line id="선_26" data-name="선 26" x2="2.401" fill="none" stroke="#7fd8da" stroke-linecap="round" stroke-width="1"/>
+            <line id="선_27" data-name="선 27" x2="2.401" transform="translate(0 1.801)" fill="none" stroke="#7fd8da" stroke-linecap="round" stroke-width="1"/>
+          </g>
+        </g>
+        <g id="그룹_96" data-name="그룹 96" transform="translate(0.598)">
+          <g id="그룹_90-2" data-name="그룹 90" transform="translate(12.615)">
+            <line id="선_24-2" data-name="선 24" y2="3.602" fill="none" stroke="#7fd8da" stroke-linecap="round" stroke-width="1"/>
+            <line id="선_25-2" data-name="선 25" x2="2.401" transform="translate(0 3.602)" fill="none" stroke="#7fd8da" stroke-linecap="round" stroke-width="1"/>
+            <line id="선_26-2" data-name="선 26" x2="2.401" fill="none" stroke="#7fd8da" stroke-linecap="round" stroke-width="1"/>
+            <line id="선_27-2" data-name="선 27" x2="2.401" transform="translate(0 1.801)" fill="none" stroke="#7fd8da" stroke-linecap="round" stroke-width="1"/>
+          </g>
+          <g id="그룹_93" data-name="그룹 93" transform="translate(4.205)">
+            <line id="선_19-2" data-name="선 19" y2="3.602" fill="none" stroke="#7fd8da" stroke-linecap="round" stroke-width="1"/>
+            <line id="선_20-2" data-name="선 20" x2="2.401" transform="translate(0 3.602)" fill="none" stroke="#7fd8da" stroke-linecap="round" stroke-width="1"/>
+            <line id="선_28" data-name="선 28" x2="2.401" fill="none" stroke="#7fd8da" stroke-linecap="round" stroke-width="1"/>
+          </g>
+          <g id="그룹_94" data-name="그룹 94" transform="translate(8.41)">
+            <line id="선_22-2" data-name="선 22" y2="3.602" fill="none" stroke="#7fd8da" stroke-linecap="round" stroke-width="1"/>
+            <line id="선_23-2" data-name="선 23" x2="2.401" transform="translate(0 1.801)" fill="none" stroke="#7fd8da" stroke-linecap="round" stroke-width="1"/>
+            <line id="선_29" data-name="선 29" y2="3.602" transform="translate(2.401)" fill="none" stroke="#7fd8da" stroke-linecap="round" stroke-width="1"/>
+          </g>
+          <g id="그룹_95" data-name="그룹 95">
+            <line id="선_27-3" data-name="선 27" x2="2.401" transform="translate(0 1.801)" fill="none" stroke="#7fd8da" stroke-linecap="round" stroke-width="1"/>
+            <g id="그룹_92" data-name="그룹 92">
+              <line id="선_24-3" data-name="선 24" y2="1.801" fill="none" stroke="#7fd8da" stroke-linecap="round" stroke-width="1"/>
+              <line id="선_25-3" data-name="선 25" x2="2.401" transform="translate(0 3.602)" fill="none" stroke="#7fd8da" stroke-linecap="round" stroke-width="1"/>
+              <line id="선_26-3" data-name="선 26" x2="2.401" fill="none" stroke="#7fd8da" stroke-linecap="round" stroke-width="1"/>
+              <line id="선_30" data-name="선 30" y2="1.801" transform="translate(2.401 1.801)" fill="none" stroke="#7fd8da" stroke-linecap="round" stroke-width="1"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

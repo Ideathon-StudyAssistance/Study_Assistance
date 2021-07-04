@@ -1,0 +1,421 @@
+/* 폰트 불러오기 */
+/* 경기천년바탕 */
+@font-face {
+    font-family: 'GyeonggiBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* 나눔바른고딕 */
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 400;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+   }
+   
+ @font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 700;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.ttf') format('truetype')
+   }
+   
+   @font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 300;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.ttf') format('truetype');
+   }
+   
+   .nanumbarungothic * {
+    font-family: 'NanumBarunGothic', sans-serif;
+   }
+
+/* 메인페이지 큰 틀 */
+#containerSpace {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* 왼쪽공간 설정 */
+.leftSpace {
+    width: 25%;
+    height: 100%;
+}
+
+.centerSpace{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainSpace {
+    background: #e9f9f9;
+    height: 93%;
+    width: 100%;
+    display: flex;
+    align-content: center;
+  }
+
+.footer {
+    width: 100%;
+    height: 7%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.rightSpace {
+    width: 25%;
+    height: 100%;
+    display: flex;
+}
+
+.sideSpace {
+    display: flex;
+    margin: 0px;
+    align-content: space-around;
+}
+
+
+
+
+
+/* mainspace 박스 */
+.settingheader {
+    height: 7%;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    /* line-height: 10px; */
+    font-family: 'GyeonggiBatang';
+    font-size: 22px;
+    font-style: normal;
+    color: #0D1117;
+}
+
+.leftsetting h2 {
+    list-style: none;
+    line-height: 10px;
+    font-family: 'GyeonggiBatang';
+    font-size: 25px;
+    font-style: normal;
+    color: #0D1117;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.rightsetting h2 {
+    list-style: none;
+    line-height: 10px;
+    font-family: 'GyeonggiBatang';
+    font-size: 25px;
+    font-style: normal;
+    color: #0D1117;
+    justify-content: flex-start;
+}
+
+.leftsetting p {
+    list-style: none;
+    line-height: 10px;
+    font-family: 'GyeonggiBatang';
+    font-size: 20px;
+    font-style:normal;
+    color: #0D1117;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.connectmessage {
+    list-style: none;
+    line-height: 10px;
+    font-family: 'NanumBarunGothic';
+    font-size: 15px;
+    font-style:normal;
+    justify-content: flex-start;
+    opacity: 0.8;
+    margin-right: 20px;
+}
+
+
+.leftsetting {
+    border-style: none solid none none;
+    border-width: 1px;
+    border-color: #A2A2A2;
+    width: 30%;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.rightsetting {
+    width: 70%;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.kakaolink {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.kakaolink p{
+    list-style: none;
+    line-height: 10px;
+    font-family: 'NanumBarunGothic;
+    font-size: 15px;
+    font-style:normal;
+    color: #0D1117;
+    justify-content: flex-start;
+}
+
+
+.kakaoLogo {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.x {
+    width: 18px;
+    height: 19px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.kakaobutton {
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    font-family: 'NanumBarunGothic';
+    cursor: pointer;
+}
+
+input::placeholder {
+    font-family: 'NanumBarunGothic';
+    font-size: 8px;
+}
+
+/* 메인 페이지 아이콘 */
+.mainLogo {
+    width: 40%;  
+    margin: 20px;
+}
+
+.footerLogo {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.footerSpan {
+    font-family: 'GyeonggiBatang';
+    font-size: 12px;
+ }
+
+.backicon {
+    width: 20px;
+    height: 20px;
+    margin-right: 510px;
+    text-decoration: none;
+    color: black;
+} 
+.settingicon {
+    width: 20px;
+    height: 20px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.settingheader div p{
+    margin-left: 50px;
+}
+
+.settingheader a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/*          scrollbar        */
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px; height:5px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background:#c0c2c2;  border-radius: 10px;
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #7FD8DA;  border-radius: 10px;
+  }
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #7feef0;  border-radius: 10px;
+  }
+
+
+/* 사이드메뉴 */
+  /* 오른쪽 공간 아이콘 설정 */
+.menu {
+    margin: 50px 0px 10px 10px;
+    width: 200px;
+    height: 50px;
+}
+
+.bodyChar1 {
+    margin-top: 300px;
+    margin-left: 20px;
+    margin-right: 230px;
+    width: 120px;
+    height: 200px;
+    opacity: 0;
+}
+
+/* 사이드메뉴 설정 */
+.sidebar{
+    position: fixed;
+    right: -250px;
+    width: 250px;
+    height: 70vh;
+    background: #FFFFFF;
+    transition: all .5s ease;
+    display: flex;
+    flex-direction: column;
+    z-index: 5;
+}
+
+.sidebarheader{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    padding: 10px;
+    user-select: none;
+}
+
+.sidebarheader img{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    padding: 10px;
+    user-select: none;
+}
+
+.sidebar_content ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: #0D1117;
+    padding-right: 40px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255,255,255,.1);
+    border-bottom: 1px solid #0D1117;
+    transition: .4s;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'GyeonggiBatang';
+    font-size: 20px;
+    
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar_content ul li:hover a{
+ padding-left: 17px;
+ color:#7FD8DA;
+}
+
+#check {
+    display: none;
+}
+
+check #menu, label #cancel{
+    position: absolute;
+    right: 0;
+    width: 200px;
+    height: 50px;
+}
+
+label #menu {
+    float: right;
+    right: 40px;
+    top: 25px;
+    font-size: 35px;
+    transition: all .5s;
+    margin: 50px 0px 10px 10px;
+    cursor: pointer;
+}
+
+label #cancel{
+    float: right;
+    right: -150px;
+    top: 17px;
+    font-size: 30px;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+#check:checked ~ .sidebar{
+    right: 0;
+}
+
+#check:checked ~ label #menu #cancel{
+ right: 250px;
+ opacity: 0;
+ pointer-events: none;
+}
+
+#check:checked ~ label #cancel{
+ right: 195px;  
+}
+
+#check:checked ~ body{
+    margin-right: 1000px;
+    opacity: 0.4;  
+   }
+
+.sidebarheader a {
+    text-decoration: none;
+}
+
+
+.accounticon .menusettingicon {
+    width: 30px;
+    height: 30px;
+}
+
+

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>To-Do 캘린더 · 공비서</title>
+        <link rel="stylesheet" href="psycss/font.css">
+        <link rel="stylesheet" href="psycss/base.css">
+        <link rel="stylesheet" href="psycss/calendar.css">
+        <link rel="stylesheet" href="psycss/popup.css">
+        <link rel="stylesheet" href="psycss/opensource/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/CalendarSidebar.css">
+        <link rel="stylesheet" type="text/css" href="css/scrollbar.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>    
+        <script type="text/javascript" src="psycss/opensource/js/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="psycss/opensource/js/bootstrap.min.js"></script>
+        <style type="text/css">
+        </style>
+    </head>
+
+    <body>
+        <div class="leftSpace">
+            <img src="img/mainLogo.svg" alt="mainLogo" id="mainLogo" onclick="location.href='mainpage.html'">
+        </div>
+
+        <div class="mainSpace">
+            <div class="mainTopSpace">
+                <div class="calNameSpace">
+                    <span id="calendarName">> ToDo 캘린더</span>
+                </div>
+                <div class="charSpace">
+                    <div class="charLeftSpace">
+                    </div>
+                    <div class="charMainSpace">
+                        <img src="img/mainCalChar.svg" alt="mainCalChar" id="mainCalChar">
+                    </div>
+                    <div class="charRightSpace">
+                        <img src="img/todoChar.svg" alt="todoChar" id="rightChar">
+                    </div>
+                </div>
+                <div class="tabSpace">
+                    <img src="img/scheTab_white.svg" alt="scheduleTab" id="scheTab" onclick="location.href='ScheduleCalendar.html'">
+                    <img src="img/todoTab_white.svg" alt="todoTab" id="todoTab" onclick="location.href='TodoCalendar.html'">
+                </div>
+            </div>
+
+            <div class="mainCenterSpace">
+                <div class="calendar-container">
+                    <div class="calendar-header">
+                        <h1>
+                            November
+                            <button id="datepicker">▾</button>
+                            <script>
+                                $("#datepicker").datepicker();
+                            </script>
+                        </h1>
+                        <p>2018</p>
+                    </div>
+                    <div class="calendar">
+                        <span class="day-name">Sun</span>
+                        <span class="day-name">Mon</span>
+                        <span class="day-name">Tue</span>
+                        <span class="day-name">Wed</span>
+                        <span class="day-name">Thu</span>
+                        <span class="day-name">Fri</span>
+                        <span class="day-name">Sat</span>
+                        <div class="day day--disabled">28</div>
+                        <div class="day day--disabled">29</div>
+                        <div class="day day--disabled">30</div>
+                        <div class="day day--disabled">31</div>
+                        <div class="day" onclick="location.href='#popup2'">1</div>
+                        <div class="day" onclick="location.href='#popup2'">2</div>
+                        <div class="day" onclick="location.href='#popup2'">3</div>
+                        <div class="day" onclick="location.href='#popup2'">4</div>
+                        <div class="day" onclick="location.href='#popup2'">5</div>
+                        <div class="day" onclick="location.href='#popup2'">6</div>
+                        <div class="day" onclick="location.href='#popup2'">7</div>
+                        <div class="day" onclick="location.href='#popup2'">8</div>
+                        <div class="day" onclick="location.href='#popup2'">9</div>
+                        <div class="day" onclick="location.href='#popup2'">10</div>
+                        <div class="day" onclick="location.href='#popup2'">11</div>
+                        <div class="day" onclick="location.href='#popup2'">12</div>
+                        <div class="day" onclick="location.href='#popup2'">13</div>
+                        <div class="day" onclick="location.href='#popup2'">14</div>
+                        <div class="day" onclick="location.href='#popup2'">15</div>
+                        <div class="day" onclick="location.href='#popup2'">16</div>
+                        <div class="day" onclick="location.href='#popup2'">17</div>
+                        <div class="day" onclick="location.href='#popup2'">18</div>
+                        <div class="day" onclick="location.href='#popup2'">19</div>
+                        <div class="day" onclick="location.href='#popup2'">20</div>
+                        <div class="day" onclick="location.href='#popup2'">21</div>
+                        <div class="day" onclick="location.href='#popup2'">22</div>
+                        <div class="day" onclick="location.href='#popup2'">23</div>
+                        <div class="day" onclick="location.href='#popup2'">24</div>
+                        <div class="day" onclick="location.href='#popup2'">25</div>
+                        <div class="day" onclick="location.href='#popup2'">26</div>
+                        <div class="day" onclick="location.href='#popup2'">27</div>
+                        <div class="day" onclick="location.href='#popup2'">28</div>
+                        <div class="day" onclick="location.href='#popup2'">29</div>
+                        <div class="day" onclick="location.href='#popup2'">30</div>
+                        <div class="day" onclick="location.href='#popup2'">31</div>
+                        
+                        <div id="popup2" class="overlay light">
+                            <a class="cancel" href="#"></a>
+                            <div class="popup">
+                                <div id="myCenter">
+                                    <div id="contents">
+                                        <div id="top">
+                                            <input type="text" class="textInput" id="title" placeholder="제목 입력" name="title">
+                                            <img id="titleLogo" src="image/popupLogo.svg" width="5%">
+                                        </div>                    
+                                        <img id="popupLine" src="image/popupLine.svg">                  
+                                        <div id="addContents">    
+                                            <div class="content">
+                                                <img class="icons" src="image/clock.svg">
+                                                <label for="date-time">날짜/시간 설정  </label>
+                                                <input type="datetime-local" class="textInput" id="date-time"
+                                                name="date-time" value="2021-07-01T13:30"
+                                                min="2021-07-01T00:00" max="2021-07-14T00:00">
+                                            </div>                  
+                                            <div class="content">
+                                                <img class="icons" src="image/link.svg">
+                                                <input type="text" class="textInput" placeholder="링크 추가" name="addLink">
+                                            </div>
+                                            <div class="content">
+                                                <img class="icons" src="image/note.svg">
+                                                <input type="text" class="textInput" placeholder="메모 추가" name="addLink">
+                                                <button type="submit" id="findFile" name="findFile">찾아보기</button>
+                                            </div>                   
+                                            <div class="content">
+                                                <img class="icons" src="image/kakaoLogo.svg">
+                                                <label for="kakao-notice">카카오톡 알림 설정 </label>
+                                                <input type="datetime-local" class="textInput" id="kakao-notice"
+                                                name="kakao-notice" value="2021-07-01T13:30"
+                                                min="2021-07-01T00:00" max="2021-07-14T00:00">
+                                            </div>                   
+                                            <div class="content">
+                                                <img class="icons" src="image/calendar.svg"> 공유할 공유 캘린더 설정
+                                                <div id="myCalList">
+                                                    <div class="checkTeam"> <input type="checkbox" class="checkbox" name="checked">멋쟁이사자처럼 아이디어톤 4팀 </div>
+                                                    <div class="checkTeam"> <input type="checkbox" class="checkbox" name="checked">멋쟁이사자처럼 여름방학 전체 일정 </div>
+                                                    <div class="checkTeam"> <input type="checkbox" class="checkbox" name="checked">멋쟁이사자처럼 스터디 </div>
+                                                    <div class="checkTeam"> <input type="checkbox" class="checkbox" name="checked">OS Lab 연구실 일정 캘린더</div>
+                                                    <div class="checkTeam"> <input type="checkbox" class="checkbox" name="checked">알고리즘 스터디 기초반</div>
+                                                </div>
+                                            </div>                   
+                                            <div class="content" id="submitBox">
+                                                <button type="submit" id="submitButton" name="calSubmit" onclick="location.href='#'">확인</button>
+                                            </div>                   
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <section class="task task--warning">
+                            <input type="checkbox" name="" value="" checked>
+                            Python 레벨 테스트 준비
+                        </section>
+                        <section class="task task--danger">
+                            <input type="checkbox" name="" value="">
+                            백준 100문제 풀이
+                        </section>
+                        <section class="task task--primary" data-container="body" data-toggle="popover" data-placement="bottom" data-content="14:00 ~ 17:00">
+                            <input type="checkbox" name="" value="">
+                            3D 그래픽 16차시 과제
+                        </section>
+                        <section class="task task--info">
+                            <input type="checkbox" name="" value="">
+                            운전면허 필기시험 공부
+                        </section>
+                    </div>
+                </div>
+        
+            </div>
+            <div class="mainBottomSpace">
+                
+            </div>
+            <footer>
+                <img src="img/footerLogo.svg" alt="공비서" id="footerLogo">
+                <span id="footerSpan"> ⓒ 2021. 일개미 All rights reserved. </span>
+            </footer>
+        </div>
+
+        <div class="rightSpace">
+            <div class = "sidespace">
+                <div class ="menuoutspace">
+                    <input type="checkbox" id="check">
+                    <label for ="check">
+                        <img src="icon/menu.svg" id="menu">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" id = "cancel" class="bi bi-x" viewBox="0 0 16 16">
+                            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                        </svg>
+                    </label>
+                    <div class = "sidebar">
+                        <header>
+                            <div class = "sidebarheader">
+                                <a href = "#">
+                                    <img src="icon/이미지 2.svg"></a>
+                                <a href = "setting.html">
+                                    <img src="icon/gear.svg">
+                                </a> 
+                            </div>
+                        </header>
+                        <div class = "sidebar_content">
+                            <ul>
+                                <li><a href ="ScheduleCalendar.html">Schedule캘린더</a></li>
+                                <li><a href ="TodoCalendar.html">Todo캘린더</a></li>
+                                <li><a href ="ShareCalendarList.html">공유캘린더</a></li>
+                                <li><a href ="closePage.html">로그아웃</a></li>
+                            </ul>
+                            <label for = "check"></label>
+                        </div>
+                        <section></section>
+                        <label for = "check" class = "background"></label>
+                    </div>
+                </div>
+                <div class = "sideicon">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

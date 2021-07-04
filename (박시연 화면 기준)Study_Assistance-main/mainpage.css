@@ -1,0 +1,366 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+/* 폰트 불러오기 */
+/* 경기천년바탕 */
+@font-face {
+    font-family: 'GyeonggiBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* 나눔바른고딕 */
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 400;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+   }
+   
+   @font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 700;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.ttf') format('truetype')
+   }
+   
+   @font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 300;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.ttf') format('truetype');
+   }
+   
+   .nanumbarungothic * {
+    font-family: 'NanumBarunGothic', sans-serif;
+   }
+   html {
+    width: 100%;
+    height: 100%;
+}
+
+/* 전체 레이아웃 설정 */
+
+#containerSpace {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* 왼쪽공간 설정 */
+.leftSpace {
+    width: 25%;
+    height: 100%;
+}
+
+.mainLogo {
+    width: 40%;  
+    margin: 20px;
+}
+
+/* 가운데공간 설정 */
+.centerSpace {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* 캘린더 및 todo, 스케줄 리스트 포함할 큰 박스 */
+.mainBox {
+    background:#e9f9f9;
+    width: 100%;
+    height: 93%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+/* 캘린더 및 to, 스케줄 리스트 */
+.ddayBox {
+    height: 280px;
+    width: 340px;
+    background-color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.todoBox {
+    height: 280px;
+    width: 340px;
+    background-color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* margin-right: 20px; */
+}
+.scheduleC {
+    height: 280px;
+    width: 340px;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.todoC {
+    height: 280px;
+    width: 340px;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.boxTop {
+    background-color: #FFFFFF;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #7FD9DA;
+    text-align: center;
+    line-height: 10px;
+    font-family: 'GyeonggiBatang';
+    font-size: 28px;
+    font-style: normal;
+    color: #0D1117;
+}
+
+.boxBottom {
+    background-color: #FFFFFF;
+    margin-left: 10px;
+    text-align:left;
+    line-height: 20px;
+    font-family: 'GyeonggiBatang';
+    font-size: 13px;
+    font-style: normal;
+    color: #0D1117;
+
+}
+
+/* 푸터 */
+footer {
+    width: 100%;
+    height: 7%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+}
+
+#footerLogo {
+    height: 20px;
+
+    margin: 5px;
+
+    cursor: default;
+}
+
+#footerSpan {
+    font-family: 'GyeonggiBatang', sans-serif;
+    font-size: 12px;
+    margin: 5px;
+}
+
+/* 오른쪽 공간 설정 */
+.rightSpace {
+    width: 25%;
+    height: 100%;
+    display: flex;
+}
+
+/* 오른쪽 공간 아이콘 설정 */
+.menu {
+    margin: 50px 0px 10px 10px;
+    width: 200px;
+    height: 50px;
+}
+
+.bodyChar1 {
+    margin-top: 300px;
+    margin-left: 20px;
+    margin-right: 230px;
+    width: 120px;
+    height: 200px;
+}
+
+/* 사이드메뉴 설정 */
+.sidebar{
+    position: fixed;
+    right: -250px;
+    width: 250px;
+    height: 70vh;
+    background: #FFFFFF;
+    transition: all .5s ease;
+    display: flex;
+    flex-direction: column;
+    z-index: 5;
+}
+
+.sidebarheader{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    padding: 10px;
+    user-select: none;
+}
+
+.sidebarheader img{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    padding: 10px;
+    user-select: none;
+}
+
+.sidebar_content ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: #0D1117;
+    padding-right: 40px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255,255,255,.1);
+    border-bottom: 1px solid #0D1117;
+    transition: .4s;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'GyeonggiBatang';
+    font-size: 20px;
+    
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar_content ul li:hover a{
+ padding-left: 17px;
+ color:#7FD8DA;
+}
+
+#check {
+    display: none;
+}
+
+check #menu, label #cancel{
+    position: absolute;
+    right: 0;
+    width: 200px;
+    height: 50px;
+}
+
+label #menu {
+    float: right;
+    right: 40px;
+    top: 25px;
+    font-size: 35px;
+    transition: all .5s;
+    margin: 50px 0px 10px 10px;
+    cursor: pointer;
+}
+
+label #cancel{
+    float: right;
+    right: -150px;
+    top: 17px;
+    font-size: 30px;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+#check:checked ~ .sidebar{
+    right: 0;
+}
+
+#check:checked ~ label #menu #cancel{
+ right: 250px;
+ opacity: 0;
+ pointer-events: none;
+}
+
+#check:checked ~ label #cancel{
+ right: 195px;  
+}
+
+#check:checked ~ body{
+    margin-right: 1000px;
+    opacity: 0.4;  
+   }
+
+.sidebarheader a {
+    text-decoration: none;
+}
+
+
+.accounticon .menusettingicon {
+    width: 30px;
+    height: 30px;
+}
+
+.boxBottom_sch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainp_calendar {
+    width: 300px;
+    height: 190px;
+    margin-top: 10px;
+}
+
+/* 스케줄 박스 강의 및 일정 바로가기 설정  */
+#school, #shortcut {
+    margin-left:1%;
+    border: outset 1px #5e7e9b;
+    text-decoration: none;
+    color: #5e7e9b;
+    padding: 2px;
+    font-size: 8px;
+    font-family: 'NanumBarunGothic';
+}
+#school:hover, #shortcut:hover{
+    background-color:#d7f1f1;
+    box-shadow:0.5px 0.5px #5c5c5c;
+}
+
+/*          scrollbar        */
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px; height:5px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background:#c0c2c2;  border-radius: 10px;
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #7FD8DA;  border-radius: 10px;
+  }
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #7feef0;  border-radius: 10px;
+  }

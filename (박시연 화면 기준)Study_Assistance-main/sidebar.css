@@ -1,0 +1,145 @@
+.rightSpace {
+    width: 25%;
+    height: 100%;
+    display: flex;
+}
+
+/* 사이드메뉴 */
+  /* 오른쪽 공간 아이콘 설정 */
+  .menu {
+    margin: 50px 0px 10px 10px;
+    width: 200px;
+    height: 50px;
+}
+
+.bodyChar1 {
+    margin-top: 300px;
+    margin-left: 20px;
+    margin-right: 230px;
+    width: 120px;
+    height: 200px;
+    opacity: 0;
+}
+
+/* 사이드메뉴 설정 */
+.sidebar{
+    position: fixed;
+    right: -250px;
+    width: 250px;
+    height: 70vh;
+    background: #FFFFFF;
+    transition: all .5s ease;
+    display: flex;
+    flex-direction: column;
+    z-index: 5;
+}
+
+.sidebarheader{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    padding: 10px;
+    user-select: none;
+}
+
+.sidebarheader img{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    padding: 10px;
+    user-select: none;
+}
+
+.sidebar_content ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: #0D1117;
+    padding-right: 40px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255,255,255,.1);
+    border-bottom: 1px solid #0D1117;
+    transition: .4s;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'GyeonggiBatang';
+    font-size: 20px;
+    
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar_content ul li:hover a{
+ padding-left: 17px;
+ color:#7FD8DA;
+}
+
+#check {
+    display: none;
+}
+
+check #menu, label #cancel{
+    position: absolute;
+    right: 0;
+    width: 200px;
+    height: 50px;
+}
+
+label #menu {
+    float: right;
+    right: 40px;
+    top: 25px;
+    font-size: 35px;
+    transition: all .5s;
+    margin: 50px 0px 10px 10px;
+    cursor: pointer;
+}
+
+label #cancel{
+    float: right;
+    right: -150px;
+    top: 17px;
+    font-size: 30px;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+#check:checked ~ .sidebar{
+    right: 0;
+}
+
+#check:checked ~ label #menu #cancel{
+ right: 250px;
+ opacity: 0;
+ pointer-events: none;
+}
+
+#check:checked ~ label #cancel{
+ right: 195px;  
+}
+
+#check:checked ~ body{
+    margin-right: 1000px;
+    opacity: 0.4;  
+   }
+
+.sidebarheader a {
+    text-decoration: none;
+}
+
+
+.accounticon .menusettingicon {
+    width: 30px;
+    height: 30px;
+}
+
+

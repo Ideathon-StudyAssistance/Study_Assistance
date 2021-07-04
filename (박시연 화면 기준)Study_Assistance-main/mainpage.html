@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="mainpage.css">
+    <link rel="stylesheet" type="text/css" href="css/scrollbar.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="video.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main page</title>
+</head>
+<body>
+    <div id = "containerSpace">
+        <div class = "leftSpace">
+            <div class = "mainLogoSpace">
+                <a href="mainPage.html">
+                <img class = "mainLogo" src="icon/mainLogo.svg"></a>
+            </div>
+        </div>
+
+        <div class = "centerSpace">
+                <div class = "mainBox">
+                    <div class = "ddayBox">
+                        <div class = "boxTop">
+                            <p>오늘의 schedule</p>
+                        </div>
+                        <div class = "boxBottom">
+                                <input name = "sch" value="one" type="checkbox"><label for = "sch">재무재표 14차시   |   10:00 - 12:00</label>
+                                    <a id = "school" href="https://commons.sch.ac.kr/em/6046da463095a?content_id=6046da463095a&TargetUrl=https://lms.sch.ac.kr&asskey=VFZSSmQwOVVRWGM9&rskey=0a4a6c3133f37867f3755a9d555937ed&cmsid=67952&startat=0&endat=-9999&pr=1">
+                                        강의바로듣기
+                                      </a><br>
+                                <input name ="sch" value="two" type="checkbox">인터넷프로그래밍 기말 팀플 3차 모임   |   13:00 - 15:00<br>
+                                    <a id = "shortcut" href="ShareCalendar.html">
+                                        일정바로가기
+                                    </a>
+                        </div>
+                    </div>
+                    <div class = "todoBox">
+                        <div class = "boxTop">
+                            <p>오늘의 To-Do</p>
+                        </div>
+                        <div class = "boxBottom">
+                                <input name ="todo" value="one" type="checkbox"> 14차시 퀴즈 준비   |   09:00 - 10:00 <br>
+                                <input name ="todo" value="two" type="checkbox">[Eclipse로 배우는 JAVA프로그래밍] 5-2단원 문제 풀이<br>
+                                <input name ="todo" value="three" type="checkbox">코드잇 [파이썬 기초] 21차시 학습
+                        </div>
+                    </div>
+                    <div class = "scheduleC">
+                        <div class = "boxTop">
+                            <p>Schedule 캘린더</p>
+                        </div>
+                        <div class = "boxBottom_sch">
+                            <a href ="ScheduleCalendar.html">
+                                <img class = "mainp_calendar" src= "icon/calendar.svg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class = "todoC">
+                        <div class = "boxTop">
+                            <p>To-Do 캘린더</p>
+                        </div>
+                        <div class = "boxBottom_sch">
+                            <a href = "TodoCalendar.html">
+                                <img class = "mainp_calendar" src= "icon/calendar2.svg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <footer>
+                    <img src="img/footerLogo.svg" alt="공비서" id="footerLogo">
+                    <span id="footerSpan"> ⓒ 2021. 일개미 All rights reserved. </span>
+                </footer>
+        </div>
+
+        <div class = "rightSpace">
+            <div class = "sidespace">
+                <div class ="menuoutspace">
+                    <input type="checkbox" id="check">
+                    <label for ="check">
+                        <img src="icon/menu.svg" id="menu">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" id = "cancel" class="bi bi-x" viewBox="0 0 16 16">
+                            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                        </svg>
+                    </label>
+                    <div class = "sidebar">
+                        <header>
+                            <div class = "sidebarheader">
+                                <a href = "#">
+                                    <img src="icon/이미지 2.svg"></a>
+                                <a href = "setting.html">
+                                    <img src="icon/gear.svg">
+                                </a> 
+                            </div>
+                        </header>
+                        <div class = "sidebar_content">
+                            <ul>
+                                <li><a href ="ScheduleCalendar.html">Schedule캘린더</a></li>
+                                <li><a href ="TodoCalendar.html">Todo캘린더</a></li>
+                                <li><a href ="ShareCalendarList.html">공유캘린더</a></li>
+                                <li><a href ="closePage.html">로그아웃</a></li>
+                            </ul>
+                            <label for = "check"></label>
+                        </div>
+                        <section></section>
+                        <label for = "check" class = "background"></label>
+                    </div>
+                </div>
+                <div class = "sideicon">
+                    <img class = "bodyChar1" src = "icon/bodyChar1.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+</body>
+</html>
